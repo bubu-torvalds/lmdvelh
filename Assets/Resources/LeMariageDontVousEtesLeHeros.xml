@@ -948,7 +948,6 @@ N'hésitez pas à "nourrir" avec la marinade pendant la cuisson, et remontez la 
     </scene>
     <scene title="bbq_2a" code="S2a" subCode="2a" numactions="4">
       <desc>Raymond vous répond : 
-
 "Il existe différentes façon d'allumer un feu lorsque l'on ne dispose d'aucun matériel prévu à cet effet, je vais tâcher de faire ici un résumé des méthodes classiques employées.
 
 L'ordre des méthodes correspondra selon moi à l'efficacité et la complexité de ces dernières. Quelle méthode veux-tu que je t’explique "</desc>
@@ -985,13 +984,14 @@ Le choc entre ces matériaux produira des étincelles qui pourront servir à dé
 
 Le point où se formeront les petites braises se situera en fin de course du petit bâton, il faudra installer les herbes sèches juste en dessus, de sorte qu'à travers la fente de la grosse branche les braises puissent atteindre les herbes. 
 
-Le plus difficile, dans cette méthode, c’est d'avoir un mouvement régulier. En effet, un passage trop généreux et l'on dépasserait le point d'arrêt en train de s'échauffer, le dispersant et
-par la même occasion le détruisant. 
-
-Chaque passage de notre bâton fin crée de minuscules copeaux en fin de course, le mouvement doit être assez énergique mais précis, et si l'on s'y prend correctement, on ne tardera pas à voir apparaître de la fumée et des petites braises. 
-
+Le plus difficile, dans cette méthode, c’est d'avoir un mouvement régulier. En effet, un passage trop généreux et l'on dépasserait le point d'arrêt en train de s'échauffer, le dispersant et par la même occasion le détruisant."</desc>
+      <actions>
+        <question code="S2a21">D'accord.</question>
+      </actions>
+    </scene>
+    <scene title="bbq_2a21" code="S2a21" subCode="2a21" numactions="4">
+      <desc>"Chaque passage de notre bâton fin crée de minuscules copeaux en fin de course, le mouvement doit être assez énergique mais précis, et si l'on s'y prend correctement, on ne tardera pas à voir apparaître de la fumée et des petites braises. 
 Ces dernières, une fois assez nombreuses, seront directement déposées dans l'herbe sèche du dessous que vous vous empressez de ramasser.
-
 Soufflez ensuite doucement sur ces dernières pour que les braises embrasent l'herbe. 
 
 C’est pas compliqué."</desc>
@@ -1011,9 +1011,13 @@ C’est pas compliqué."</desc>
 
 À la différence de la première méthode, ici on n'effectue plus un mouvement longitudinal mais on induit une rotation au deuxième bâton avec un axe déterminé sur la base. Cet axe sera situé de manière à ce que le rayon du petit bâton dépasse légèrement du bord de la base.
 
-Une gorge sera alors formée latéralement, laissant les braises tomber directement dans les herbes sèches.
-
-La rotation sera induite en faisant tourner le bâton entre ses mains. On effectuera une pression vers le sol qui augmentera le frottement entre la base et le bâton. Cette opération aura comme conséquence le glissement de nos mains vers le sol, on sera donc obligés de remonter ces dernières et ainsi de marquer des pauses pendant lesquelles le foyer aura le temps de se refroidir. 
+Une gorge sera alors formée latéralement, laissant les braises tomber directement dans les herbes sèches."</desc>
+      <actions>
+        <question code="S2a31">D'accord.</question>
+      </actions>
+    </scene>
+    <scene title="bbq_2a31" code="S2a31" subCode="2a31" numactions="4">
+      <desc>"La rotation sera induite en faisant tourner le bâton entre ses mains. On effectuera une pression vers le sol qui augmentera le frottement entre la base et le bâton. Cette opération aura comme conséquence le glissement de nos mains vers le sol, on sera donc obligés de remonter ces dernières et ainsi de marquer des pauses pendant lesquelles le foyer aura le temps de se refroidir. 
 
 Cette technique est beaucoup utilisée par les aborigènes. 
 
@@ -1035,10 +1039,13 @@ C’est pas compliqué."</desc>
 Le défaut de la troisième technique est qu'elle fait mal aux mains et que l'énergie dépensée n'est pas forcément justifiée, outre à l'arrêt pour remonter ses mains le long du bâton l'amplitude du mouvement de nos mains se limite à la longueur de nos paumes (on ne va pas faire rouler
 le bâton entre nos avant bras). 
 
-Pour palier à ces inconvénients, il suffit d’employer un lacet ou une quelconque corde, ainsi qu’un matériau lisse, solide et creux qui protègera notre main du frottement (à la mer un coquillage, en forêt une pierre ayant un renfoncement, ou un morceau d'os), il faudra également une branche qui servira d'arc. 
-
-Vous l'aurez certainement deviné, cette technique ressemble comme deux gouttes d'eau à la précédente, sauf qu'on se servira de l'arc formé avec le lacet pour passer une boucle autour du bâton (axe) et qu’on mettra le coquillage ou autre dans la paume de la main ne tenant pas l'arc. 
-
+Pour palier à ces inconvénients, il suffit d’employer un lacet ou une quelconque corde, ainsi qu’un matériau lisse, solide et creux qui protègera notre main du frottement (à la mer un coquillage, en forêt une pierre ayant un renfoncement, ou un morceau d'os), il faudra également une branche qui servira d'arc."</desc>
+      <actions>
+        <question code="S2a41">D'accord.</question>
+      </actions>
+    </scene>
+    <scene title="bbq_2a41" code="S2a41" subCode="2a41" numactions="4">
+      <desc>"Vous l'aurez certainement deviné, cette technique ressemble comme deux gouttes d'eau à la précédente, sauf qu'on se servira de l'arc formé avec le lacet pour passer une boucle autour du bâton (axe) et qu’on mettra le coquillage ou autre dans la paume de la main ne tenant pas l'arc.
 Le coquillage servira de logement pour l'autre extrémité du petit bâton, il évitera d'abîmer votre main mais surtout il permettra un mouvement fluide et très rapide du petit bâton. 
 
 Avec cette mise en place, vous démarrez votre feu en un rien de temps. 
@@ -1046,8 +1053,8 @@ Avec cette mise en place, vous démarrez votre feu en un rien de temps.
 C’est pas compliqué."</desc>
       <actions>
         <question code="S2a1">Méthode 1.</question>
-        <question code="S2a2">Méthode 2.</question>
         <question code="S2a3">Méthode 3.</question>
+        <question code="S2a4">Méthode 4.</question>
         <question code="S2a5">Méthode 5.</question>
         <question code="S1">Vous mangez une saucisse.</question>
         <question code="M">Finalement, vous allez vers le terrain de Molkky.</question>
@@ -1056,18 +1063,18 @@ C’est pas compliqué."</desc>
       </actions>
     </scene>
     <scene title="bbq_2a5" code="S2a5" subCode="2a5" numactions="4">
-      <desc>"En admettant que vous soyez en forêt tropicale et que vous côtoyez des bambou-raies, vous aurez là un bois ou plus précisément une herbe (le bambou fait partie de la famille des herbes de par son mode de reproduction) qui se suffit à lui-même. Autrement dit, vous pourrez
-tirer en lui tout ce qu'il vous faut pour démarrer un feu. 
+      <desc>"En admettant que vous soyez en forêt tropicale et que vous côtoyez des bambou-raies, vous aurez là un bois ou plus précisément une herbe (le bambou fait partie de la famille des herbes de par son mode de reproduction) qui se suffit à lui-même. Autrement dit, vous pourrez tirer en lui tout ce qu'il vous faut pour démarrer un feu. 
 
 Choisissez un morceau sec, fendez-le en deux dans le sens de la longueur. Pratiquez ensuite une légère fissure sur + ou - 8 cm, puis prenez l'autre moitié que vous aviez initialement coupée. Ensuite, à l'aide d'un couteau, d'une machette ou d'un autre objet tranchant, grattez l'extérieur du bâton afin d'obtenir une sorte de laine de bambou (fibres fines). 
 Une fois retirée, la poussière de cette dernière facilitera l'immolation.
-Installez-la sous la fente de 8cm que vous avez pratiquée sur la première moitié et posez le tout au sol de façon à cacher la laine de bambou. 
-
-Il faut alors s'assurer que cette moitié soit fixée au sol car on va utiliser la deuxième moitié comme une scie, perpendiculairement à la première moitié, juste au milieu de la fente de 8cm, de sorte à ce que la friction produise des braises qui enflammeront les fibres préparées
-juste en dessous. 
-
+Installez-la sous la fente de 8cm que vous avez pratiquée sur la première moitié et posez le tout au sol de façon à cacher la laine de bambou."</desc>
+      <actions>
+        <question code="S2a51">D'accord.</question>
+      </actions>
+    </scene>
+    <scene title="bbq_2a51" code="S2a51" subCode="2a51" numactions="4">
+      <desc>"Il faut alors s'assurer que cette moitié soit fixée au sol car on va utiliser la deuxième moitié comme une scie, perpendiculairement à la première moitié, juste au milieu de la fente de 8cm, de sorte à ce que la friction produise des braises qui enflammeront les fibres préparées juste en dessous. 
 La suite est simple, les frottements ne tarderont pas à produire fumée et petites braises. 
-
 Quand vous le jugez suffisant, soufflez à travers le trou créé afin d'attiser le feu, les flammes ne devraient pas tarder à apparaître.
 
 C’est pas compliqué."</desc>

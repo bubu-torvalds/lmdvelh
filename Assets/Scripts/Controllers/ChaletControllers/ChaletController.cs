@@ -33,6 +33,8 @@ public class ChaletController : MonoBehaviour {
             SceneManager.LoadScene("Chalet_couloir");
         } else if (currentScene.getCode() == "T") {
             SceneManager.LoadScene("Table");
+        } else if (currentScene.getCode() == "S") {
+            SceneManager.LoadScene("BBQ");
         }
 
     }

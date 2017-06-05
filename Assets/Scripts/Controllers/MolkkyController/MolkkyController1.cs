@@ -32,7 +32,7 @@ public class MolkkyController1 : MonoBehaviour {
         } else if (currentScene.getCode() == "B") {
             SceneManager.LoadScene("Bar");
         } else if (currentScene.getCode() == "S") {
-            // SceneManager.LoadScene("Barbecue");
+            SceneManager.LoadScene("BBQ");
         } else if (currentScene.getCode() == "D") {
             // SceneManager.LoadScene("Dancefloor");
         }
