@@ -49,7 +49,7 @@ public class TableController : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "T1");
         } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "T2");
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.J)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J");
         } else if (Input.GetKeyDown(KeyCode.D)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
