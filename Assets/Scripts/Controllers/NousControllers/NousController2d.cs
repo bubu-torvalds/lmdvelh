@@ -35,7 +35,7 @@ public class NousController2d : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.M)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
 

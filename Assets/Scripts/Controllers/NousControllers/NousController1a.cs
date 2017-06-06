@@ -41,7 +41,7 @@ public class NousController1a : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "N1b");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.M)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
 
