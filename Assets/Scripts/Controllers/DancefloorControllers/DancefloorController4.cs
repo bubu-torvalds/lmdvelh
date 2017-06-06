@@ -25,11 +25,11 @@ public class DancefloorController4 : MonoBehaviour {
         if (currentScene.getCode() == "D4") {
             d4();
         } else if (currentScene.getCode() == "D1") {
-            SceneManager.LoadScene("Dancefloor1");
+            SceneManager.LoadScene("Dancefloor_1");
         } else if (currentScene.getCode() == "D2") {
-            SceneManager.LoadScene("Dancefloor2");
+            SceneManager.LoadScene("Dancefloor_2");
         } else if (currentScene.getCode() == "D3") {
-            SceneManager.LoadScene("Dancefloor3");
+            SceneManager.LoadScene("Dancefloor_3");
         } else if (currentScene.getCode() == "C") {
             SceneManager.LoadScene("Chalet");
         } else if (currentScene.getCode() == "T") {
@@ -65,35 +65,35 @@ public class DancefloorController4 : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D3");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.C)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
 
-        } else if (Input.GetKeyDown(KeyCode.C)) {
+        } else if (Input.GetKeyDown(KeyCode.T)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "T");
 
-        } else if (Input.GetKeyDown(KeyCode.T)) {
+        } else if (Input.GetKeyDown(KeyCode.J)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J");
 
-        } else if (Input.GetKeyDown(KeyCode.J)) {
+        } else if (Input.GetKeyDown(KeyCode.F)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F");
 
-        } else if (Input.GetKeyDown(KeyCode.F)) {
+        } else if (Input.GetKeyDown(KeyCode.B)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
 
-        } else if (Input.GetKeyDown(KeyCode.B)) {
+        } else if (Input.GetKeyDown(KeyCode.M)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
 
-        } else if (Input.GetKeyDown(KeyCode.M)) {
+        } else if (Input.GetKeyDown(KeyCode.S)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S");
 
-        } else if (Input.GetKeyDown(KeyCode.S)) {
+        } else if (Input.GetKeyDown(KeyCode.D)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ");
 

@@ -25,13 +25,13 @@ public class DancefloorController : MonoBehaviour {
 		if (currentScene.getCode() == "D") {                    
 			d();
 		} else if (currentScene.getCode() == "D1") {            
-			SceneManager.LoadScene("Dancefloor1");
+			SceneManager.LoadScene("Dancefloor_1");
 		} else if (currentScene.getCode() == "D2") {            
-			SceneManager.LoadScene("Dancefloor2");
+			SceneManager.LoadScene("Dancefloor_2");
 		} else if (currentScene.getCode() == "D3") {
-			SceneManager.LoadScene("Dancefloor3");
+			SceneManager.LoadScene("Dancefloor_3");
 		} else if (currentScene.getCode() == "D4") {
-			SceneManager.LoadScene("Dancefloor4");
+			SceneManager.LoadScene("Dancefloor_4");
 		} else if (currentScene.getCode() == "C") {
 			SceneManager.LoadScene("Chalet");
 		} else if (currentScene.getCode() == "T") {

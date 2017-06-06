@@ -30,6 +30,8 @@ public class ChaletController : MonoBehaviour {
             SceneManager.LoadScene("Chalet_wc_porte");
         } else if (currentScene.getCode() == "C2") {            // On change de scene et on va dans le couloir
             SceneManager.LoadScene("Chalet_couloir");
+        } else if (currentScene.getCode() == "D") {
+            SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "T") {
             SceneManager.LoadScene("Table");
         } else if (currentScene.getCode() == "S") {

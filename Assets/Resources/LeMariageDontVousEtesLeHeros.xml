@@ -1146,7 +1146,7 @@ Sophie, la tante d’Hélène, vous adresse un regard plein de soutien et de com
       </actions>
     </scene>
     <scene title="dancefloor_2" code="D2" subCode="2" >
-      <desc>"Prends pas la tête à papineau pour catcher ou c’qu’ils ont bien pu s’crisser ? Esti qu’c'est cave comme question. T'es mal amanché en cibouère ? Prends ton gaz égal, calme-toi joualvère."</desc>
+      <desc>"Prends pas la tête à papineau pour catcher où c’qu’ils ont bien pu s’crisser ? Esti qu’c'est cave comme question. T'es mal amanché en cibouère ? Prends ton gaz égal, calme-toi joualvère."</desc>
       <actions>
         <question code="D2">[1] Je ne comprends pas.</question>
         <question code="D">[2] Euh... d’accord.</question>

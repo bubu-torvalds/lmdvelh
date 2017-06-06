@@ -25,7 +25,7 @@ public class DancefloorController2 : MonoBehaviour {
         if (currentScene.getCode() == "D2") {
             d2();
         } else if (currentScene.getCode() == "D2") {
-            SceneManager.LoadScene("Dancefloor2");
+            SceneManager.LoadScene("Dancefloor_2");
         } else if (currentScene.getCode() == "D") {
             SceneManager.LoadScene("Dancefloor");
         } 
