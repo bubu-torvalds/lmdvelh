@@ -15,7 +15,6 @@ public class DancefloorController : MonoBehaviour {
 		
 		wedding = LoadXml.LoadXmlFile();
 		
-		//TODO put default scene in a tag of the xml schema. default scene is C at the moment. 
 		currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
 		
 	}
@@ -23,11 +22,11 @@ public class DancefloorController : MonoBehaviour {
 	// Update is called once per frame
 	void Update() {
 		
-		if (currentScene.getCode() == "D") {                    // On affiche les textes de l'entrée du chalet
+		if (currentScene.getCode() == "D") {                    
 			d();
-		} else if (currentScene.getCode() == "D1") {            // On change de scene et on va à la porte des WC 
+		} else if (currentScene.getCode() == "D1") {            
 			SceneManager.LoadScene("Dancefloor1");
-		} else if (currentScene.getCode() == "D2") {            // On change de scene et on va dans le couloir
+		} else if (currentScene.getCode() == "D2") {            
 			SceneManager.LoadScene("Dancefloor2");
 		} else if (currentScene.getCode() == "D3") {
 			SceneManager.LoadScene("Dancefloor3");
@@ -49,12 +48,9 @@ public class DancefloorController : MonoBehaviour {
 			SceneManager.LoadScene("BBQ");
 		} else if (currentScene.getCode() == "DJ") {
 			SceneManager.LoadScene("DJ");
-		}
-		
-		
+		}		
 	}
 	
-	// On affiche les textes de l'entrée du chalet
 	void d() {
 		
 		desc.text = PrintText.printText(currentScene);       

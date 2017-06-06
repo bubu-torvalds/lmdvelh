@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -14,8 +12,7 @@ public class TableController2 : MonoBehaviour {
     void Start () {
 
         wedding = LoadXml.LoadXmlFile();
-
-        //TODO put default scene in a tag of the xml schema. default scene is C at the moment. 
+        
         currentScene = wedding.getScenes().Find(x => x.getCode() == "T2");
 
     }

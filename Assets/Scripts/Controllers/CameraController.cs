@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CameraController : MonoBehaviour {
 
@@ -9,10 +7,8 @@ public class CameraController : MonoBehaviour {
     public float speed = 1f;
     private float startTime;
     private float journeyLength;
-    public float smooth = 5.0F;
     public float fracJourney;
     public float distCovered;
-
 
     // Use this for initialization
     void Start () {
@@ -21,13 +17,7 @@ public class CameraController : MonoBehaviour {
         print(startTime);
         journeyLength = Vector3.Distance(startMarker.position, endMarker.position);
         print(journeyLength);
-
-        
-
-    }
-
-
-    
+    }   
 
     // Update is called once per frame
     void Update () {
@@ -38,7 +28,6 @@ public class CameraController : MonoBehaviour {
         print(fracJourney);
 
         print(Camera.main.transform.position);
-        Camera.main.transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);
-        
+        Camera.main.transform.position = Vector3.Lerp(startMarker.position, endMarker.position, fracJourney);        
 	}
 }

@@ -14,8 +14,7 @@ public class BBQController2a1 : MonoBehaviour {
     void Start() {
 
         wedding = LoadXml.LoadXmlFile();
-
-        //TODO put default scene in a tag of the xml schema. default scene is C at the moment. 
+        
         currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a1");
 
     }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Xml;
+﻿using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.IO;
 
@@ -28,9 +26,7 @@ public class Wedding {
         reader.Close();
 
         return wedding;
-    }
-
-    
+    }    
 
     public static Wedding LoadFromText(string text) {
         XmlSerializer serializer = new XmlSerializer(typeof(Wedding));
