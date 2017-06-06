@@ -59,11 +59,11 @@ public class BBQController2a41 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a5");
         } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S1");
-        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
+        } else if (Input.GetKeyDown(KeyCode.M)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
-        } else if (Input.GetKeyDown(KeyCode.Keypad7)) {
+        } else if (Input.GetKeyDown(KeyCode.C)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
-        } else if (Input.GetKeyDown(KeyCode.Keypad8)) {
+        } else if (Input.GetKeyDown(KeyCode.B)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
         }
     }
