@@ -52,15 +52,15 @@ public class ChaletController : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C2");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.D)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.T)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "T");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
+        } else if (Input.GetKeyDown(KeyCode.S)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S");
 

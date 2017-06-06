@@ -32,7 +32,7 @@ public class JeuxController2 : MonoBehaviour {
         } else if (currentScene.getCode() == "BUS") {
             SceneManager.LoadScene("Bus");
         } else if (currentScene.getCode() == "D") {
-            //SceneManager.LoadScene("Dancefloor");
+            SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "F") {
             SceneManager.LoadScene("Foret");
         }
@@ -47,13 +47,13 @@ public class JeuxController2 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J1");
         } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J3");
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.B)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "BUS");
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.T)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "T");
-        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
+        } else if (Input.GetKeyDown(KeyCode.D)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
+        } else if (Input.GetKeyDown(KeyCode.F)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F");
         }
     }

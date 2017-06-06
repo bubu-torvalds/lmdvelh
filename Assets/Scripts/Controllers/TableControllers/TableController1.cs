@@ -28,7 +28,7 @@ public class TableController1 : MonoBehaviour {
         } else if (currentScene.getCode() == "J") {
             SceneManager.LoadScene("Jeux");
         } else if (currentScene.getCode() == "D") {
-            // SceneManager.LoadScene("Dancefloor");
+            SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "C") {
             SceneManager.LoadScene("Chalet");
         }
@@ -38,11 +38,11 @@ public class TableController1 : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.J)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J");
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.D)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.C)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
         }
     }

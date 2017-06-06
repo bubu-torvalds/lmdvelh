@@ -34,7 +34,7 @@ public class ForetController01 : MonoBehaviour {
         } else if (currentScene.getCode() == "B") {
             SceneManager.LoadScene("Bar");
         } else if (currentScene.getCode() == "D") {
-            // SceneManager.LoadScene("Dancefloor");
+            SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "J") {
             SceneManager.LoadScene("Jeux");
         }
@@ -51,11 +51,11 @@ public class ForetController01 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F2");
         } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F3");
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.B)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
-        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
+        } else if (Input.GetKeyDown(KeyCode.D)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
+        } else if (Input.GetKeyDown(KeyCode.J)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J");
         }
     }
