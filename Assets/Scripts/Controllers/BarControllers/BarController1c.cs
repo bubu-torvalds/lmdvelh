@@ -32,7 +32,7 @@ public class BarController1c : MonoBehaviour {
         } else if (currentScene.getCode() == "B3") {
             SceneManager.LoadScene("Bar_3");
         } else if (currentScene.getCode() == "D") {
-            // SceneManager.LoadScene("Dancefloor");
+            SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "M") {
             SceneManager.LoadScene("Molkky");
         } else if (currentScene.getCode() == "F") {
@@ -51,11 +51,11 @@ public class BarController1c : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B2");
         } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B3");
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.D)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
+        } else if (Input.GetKeyDown(KeyCode.M)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
-        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
+        } else if (Input.GetKeyDown(KeyCode.F)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F");
         }
     }

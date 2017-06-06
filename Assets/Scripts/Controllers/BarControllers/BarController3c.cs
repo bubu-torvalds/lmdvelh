@@ -35,7 +35,7 @@ public class BarController3c : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.C)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
         } 
     }
