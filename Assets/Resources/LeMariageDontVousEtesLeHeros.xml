@@ -1226,26 +1226,26 @@ Quentin est aux manettes. Il tient un casque audio contre son oreille pour faire
       <actions>
         <question code="D">[1] "I’m sexy and I know it", d’LMFAO</question>
         <question code="D">[2] "Sarbacane”" de Francis Cabrel</question>
-        <question code="DJ2c">[3] "Jean-Petit qui danse"</question>
-        <question code="DJ2d">[4] "Tessellate" d’Alt-J. </question>
+        <question code="DJ2a">[3] "Jean-Petit qui danse"</question>
+        <question code="DJ2b">[4] "Tessellate" d’Alt-J. </question>
       </actions>
     </scene>
-    <scene title="dj_2c" code="DJ2c" subCode="2c" >
+    <scene title="dj_2a" code="DJ2a" subCode="2a" >
       <desc>Dès les premières notes de la chanson, et à la surprise générale, tous les Kempeneers arrêtent net ce qu’ils étaient en train de faire et rejoignent la piste de danse.
 
 Instinctivement, ils forment une ronde étrange et entament une danse rituelle.
 
 Les autres invités tentent de s’échapper, mais c’est déjà trop tard. Ils sont entraînés dans la ronde.
 
-Vous aussi, vous rejoignez la danse.
+Vous aussi, vous rejoignez la danse. </desc>
+      <actions>
+        <question code="DJ2a1">[1] Vous dansez.</question>
+      </actions>
+    </scene>
+	<scene title="dj_2a1" code="DJ2a1" subCode="2a1" >
+      <desc>Le vacarme est retentissant et la chanson réveille tous les animaux de la forêt, mais malheureusement, ça ne suffit pas à attirer les mariés.
 
-Le vacarme est retentissant et la chanson réveille tous les animaux de la forêt.
-
-Malheureusement, ça ne suffit pas à attirer les mariés.
-
-À la fin de la chanson, tout le monde reprend ses activités.
-
-Vous vous retrouvez sur la piste de danse, comme s’il ne s’était rien passé.</desc>
+À la fin de la chanson, tout le monde reprend ses activités et vous vous retrouvez sur la piste de danse, comme s’il ne s’était rien passé.</desc>
       <actions>
         <question code="D1">[1] Vous observez Fabien.</question>
         <question code="D2">[2] Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
@@ -1261,12 +1261,12 @@ Vous vous retrouvez sur la piste de danse, comme s’il ne s’était rien pass�
         <question code="DJ">[D] Vous allez voir le DJ.</question>
       </actions>
     </scene>
-    <scene title="dj_2d" code="DJ2d" subCode="2d" >
+    <scene title="dj_2b" code="DJ2b" subCode="2b" >
       <desc>Attiré par la musique, Laurent, le frère de Max, sort des bois et vous rejoint sur la piste.
 
 Vous passez un moment très agréable avec lui, avant qu’il ne retourne dans la forêt, l’air préoccupé.</desc>
       <actions>
-        <question code="D">[1] Vous retournez sur la piste de danse.</question>
+        <question code="D">[D] Vous retournez sur la piste de danse.</question>
       </actions>
     </scene>
     <scene title="dj_4" code="DJ4" subCode="4" >
