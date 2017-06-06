@@ -46,11 +46,11 @@ public class BarController2 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B1");
         } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B3");
-        } else if (Input.GetKeyDown(KeyCode.D)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.M)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
-        } else if (Input.GetKeyDown(KeyCode.F)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F");
         } 
     }
