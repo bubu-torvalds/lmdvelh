@@ -16,6 +16,8 @@ public class ChaletController2c0 : MonoBehaviour {
 
         wedding = LoadXml.LoadXmlFile();
 
+        audioSource.Play();
+
         currentScene = wedding.getScenes().Find(x => x.getCode() == "C2c_0");
 
     }
@@ -35,37 +37,8 @@ public class ChaletController2c0 : MonoBehaviour {
 
     }
 
-
     void c2c0() {
-        desc.text = PrintText.printText(currentScene);
-
-        /*AudioMixer mixer = Resources.Load("Music/AudioMixer") as AudioMixer;
-        string outputMixer = "Master";
-
-        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.clip = clip;
-        audioSource.outputAudioMixerGroup = mixer.FindMatchingGroups(outputMixer)[0];
-        audioSource.priority = 128;
-        audioSource.pitch = 0.9f;
-        audioSource.loop = false;
-        audioSource.volume = 0.1f;
-        audioSource.rolloffMode = AudioRolloffMode.Logarithmic;
-        audioSource.minDistance = 1;
-        audioSource.maxDistance = 500;
-        audioSource.bypassEffects = true;
-        audioSource.bypassReverbZones = true;
-        audioSource.bypassListenerEffects = true;
-        audioSource.dopplerLevel = 1;
-        audioSource.spatialBlend = 0f;
-        audioSource.reverbZoneMix = 1;
-        audioSource.panStereo = 0;
-        audioSource.spread = 0;
-        audioSource.spatialize = false;*/
-
-
-        audioSource.Play();
-
-        Debug.Log(audioSource.isPlaying);
+        desc.text = PrintText.printText(currentScene);      
 
         if (Input.GetKeyDown(KeyCode.Keypad1)) {
 

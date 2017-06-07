@@ -9,12 +9,15 @@ public class NousController2c : MonoBehaviour {
     public Wedding wedding;
     public Text desc;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
 
         wedding = LoadXml.LoadXmlFile();
-        
+
+        audioSource.Play();
+
         currentScene = wedding.getScenes().Find(x => x.getCode() == "N2c");
 
     }
@@ -37,13 +40,6 @@ public class NousController2c : MonoBehaviour {
     void n2c() {
 
         desc.text = PrintText.printText(currentScene);
-
-        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
-        audioSource.clip = Resources.Load("Music/cabrel") as AudioClip;
-        audioSource.loop = false;
-        audioSource.dopplerLevel = 0;
-        audioSource.volume = 0.2f;
-        audioSource.Play();
 
         if (Input.GetKeyDown(KeyCode.Keypad1)) {
 
