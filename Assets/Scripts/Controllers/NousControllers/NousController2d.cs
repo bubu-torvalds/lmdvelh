@@ -34,6 +34,12 @@ public class NousController2d : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
+        AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = Resources.Load("Music/ours") as AudioClip;
+        audioSource.loop = false;
+        audioSource.volume = 0.2f;
+        audioSource.Play();
+
         if (Input.GetKeyDown(KeyCode.Keypad1)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");

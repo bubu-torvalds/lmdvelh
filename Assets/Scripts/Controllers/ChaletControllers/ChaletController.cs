@@ -27,9 +27,9 @@ public class ChaletController : MonoBehaviour {
         if (currentScene.getCode() == "C") {                    // On affiche les textes de l'entrée du chalet
             c();
         } else if (currentScene.getCode() == "C1") {            // On change de scene et on va à la porte des WC 
-            SceneManager.LoadScene("Chalet_wc_porte");
+            SceneManager.LoadScene("Chalet_1");
         } else if (currentScene.getCode() == "C2") {            // On change de scene et on va dans le couloir
-            SceneManager.LoadScene("Chalet_couloir");
+            SceneManager.LoadScene("Chalet_2");
         } else if (currentScene.getCode() == "D") {
             SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "T") {

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <wedding>
   <scenes>
-    <scene title="entree_chalet" code="C" subCode="0" >
+    <scene title="Chalet" code="C" subCode="0" >
       <desc>Vous pénétrez dans le chalet. Le feu crépite dans la cheminée. Vous entendez plusieurs bruits déroutants mais vous ne savez pas d’où ils proviennent.</desc>
       <actions>
         <question code="C1"> Vous vous dirigez vers la porte à droite.</question>
@@ -11,27 +11,27 @@
         <question code="S"> Vous ne résistez pas à cette douce odeur de viande grillée. Vous allez au stand BBQ.</question>
       </actions>
     </scene>
-    <scene title="wc" code="C1" subCode="1" >
+    <scene title="Chalet_1" code="C1" subCode="1" >
       <desc>En approchant de la porte, une violente odeur vous chatouille les narines.</desc>
       <actions>
         <question code="C1a"> Vous ouvrez la porte.</question>
         <question code="C"> Vous retournez sur vos pas. Après tout, ce ne sont pas vos affaires.</question>
       </actions>
     </scene>
-    <scene title="wc_ouvert" code="C1a" subCode="1a" >
+    <scene title="Chalet_1a" code="C1a" subCode="1a" >
       <desc>Agenouillé au-dessus des toilettes, vous découvrez Maxence, qui semble avoir passé un peu trop de temps au bar.</desc>
       <actions>
         <question code="C1a_0"> "Est-ce que tu sais où sont Max et Hélène ?"</question>
         <question code="C"> Vous décidez de le laisser tranquille et retournez sur vos pas.</question>
       </actions>
     </scene>
-    <scene title="wc_ouvert_maxence" code="C1a_0" subCode="1a_0" >
+    <scene title="Chalet_1a0" code="C1a_0" subCode="1a_0" >
       <desc>Le pauvre bougre émet un violent rauque incompréhensible. Vous le laissez tranquille et retournez dans l’entrée.</desc>
       <actions>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="couloir" code="C2" subCode="2" >
+    <scene title="Chalet_2" code="C2" subCode="2" >
       <desc>Vous avancez dans le couloir. Celui-ci est décoré avec goût : des canvas représentants diverses races canines sont alignés sur les murs, de chaque côté. Un bruit étrange semble provenir de la porte au fond du couloir.</desc>
       <actions>
         <question code="C2a"> Vous décidez de vous attarder et d’observer un des tableaux.</question>
@@ -41,7 +41,7 @@
         <question code="C"> Vous changez d’avis et revenez sur vos pas.</question>
       </actions>
     </scene>
-    <scene title="canvas1" code="C2a" subCode="#1" >
+    <scene title="Chalet_2a" code="C2a" subCode="#1" >
       <desc>Un berger allemand à l’air sinistre vous dévisage. Vous vous balancez de droite à gauche, et celui-ci semble vous suivre du regard.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
@@ -51,7 +51,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="canvas2" code="C2a" subCode="#2" >
+    <scene title="Chalet_2a" code="C2a" subCode="#2" >
       <desc>C’est le portrait d’un petit Jack Russell. Vous avez un petit pincement au coeur sans trop savoir pourquoi.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
@@ -61,7 +61,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="canvas3" code="C2a" subCode="#3" >
+    <scene title="Chalet_2a" code="C2a" subCode="#3" >
       <desc>C’est le portrait d’un carlin qui semble vous dire : "ça te dirais-tu qu’on aille manger une poutine tous les deux ?"</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
@@ -71,7 +71,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="canvas4" code="C2a" subCode="#4" >
+    <scene title="Chalet_2a" code="C2a" subCode="#4" >
       <desc>Vous ne savez pas ce que c’est comme chien, mais vous vous dites qu’il doit sûrement s’appeler 'Croquette'.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
@@ -81,7 +81,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="canvas5" code="C2a" subCode="#5" >
+    <scene title="Chalet_2a" code="C2a" subCode="#5" >
       <desc>Oh ! Un husky !</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
@@ -91,7 +91,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="canvas6" code="C2a" subCode="#6" >
+    <scene title="Chalet_2a" code="C2a" subCode="#6" >
       <desc>Vous ne saurez pas exactement dire pourquoi, mais celui-là vous rappelle votre amour d’enfance.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
@@ -101,7 +101,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="chambre_mysterieuse" code="C2b" subCode="2b" >
+    <scene title="Chalet_2b" code="C2b" subCode="2b" >
       <desc>Vous vous approchez de la porte et posez votre oreille contre celle-ci. Vous pensez reconnaître des gémissements de plaisir.</desc>
       <actions>
         <question code="C2b_0"> "Hélène ? Max ?"</question>
@@ -111,7 +111,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="chambre_mysterieuse_0" code="C2b_0" subCode="2b_0" >
+    <scene title="Chalet_2b0" code="C2b_0" subCode="2b_0" >
       <desc>Les gémissements s’interrompent un instant et reprennent de plus belle.</desc>
       <actions>
         <question code="C2b_1"> Vous toquez à la porte.</question>
@@ -120,7 +120,7 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="chambre_mysterieuse_1" code="C2b_1" subCode="2b_1" >
+    <scene title="Chalet_2b1" code="C2b_1" subCode="2b_1" >
       <desc>Rien ne se passe.</desc>
       <actions>
         <question code="C2b_0"> "Hélène ? Max ?"</question>
@@ -129,14 +129,14 @@
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="salle_de_bain" code="C2c" subCode="2c" >
+    <scene title="Chalet_2c" code="C2c" subCode="2c" >
       <desc>Vous entrez dans la salle-de-bain. Dans un coin, Fabien, le frère de Max, est en train de changer la couche d’Alexis, le petit dernier.</desc>
       <actions>
         <question code="C2c_0"> Vous chatouillez les petits pieds d’Alexis.</question>
         <question code="C2c_1"> "Est-ce que tu aurais vu les mariés ?"</question>
       </actions>
     </scene>
-    <scene title="pied_alexis" code="C2c_0" subCode="2c_0" >
+    <scene title="Chalet_2c0" code="C2c_0" subCode="2c_0" >
       <desc>Ces petits pieds dodus sont irrésistibles. Alexis rit de bon coeur, et vous riez aussi. 
 Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est temps de vous éclipser.
       </desc>
@@ -146,7 +146,7 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="question_fabienB" code="C2c_1" subCode="2c_1" >
+    <scene title="Chalet_2c1" code="C2c_1" subCode="2c_1" >
       <desc>"Non, la dernière fois que je les ai vus, ils étaient en train de boire un verre de..." 
       Tout à coup, Fabien se prend un violent jet de pipi au visage. Vous comprenez qu’il est temps de vous éclipser.
       </desc>
@@ -156,7 +156,7 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="chambre_mira" code="C2d" subCode="2d" >
+    <scene title="Chalet_2d" code="C2d" subCode="2d" >
       <desc>Vous ouvrez doucement la porte. Assise sur le lit, la petite Mira semble très absorbée dans la lecture d’un livre.</desc>
       <actions>
         <question code="C2d"> Vous lui demandez de vous raconter une histoire.</question>
@@ -165,7 +165,7 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="histoire1" code="C2d" subCode="#1" >
+    <scene title="Chalet_2d" code="C2d" subCode="#1" >
       <desc>Mira vous lance un regard perçant, pousse un long soupir, ferme son livre et vous invite à vous asseoir.
 
 
@@ -194,7 +194,7 @@ Et là, le grand-père réfléchit un instant et dit :
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="histoire2" code="C2d" subCode="#2" >
+    <scene title="Chalet_2d" code="C2d" subCode="#2" >
       <desc>Mira vous regarde d’un air un peu agacé, pousse un long soupir, ferme son livre et vous invite à vous asseoir.
 
 "Pssst... !
@@ -260,7 +260,7 @@ Clic-ouïe ! Pschitt-crac-aïe ! Pouuuuuuuuuuuuuuuh... pouf ! Shhhhhhhhhhhhhhhhh
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="histoire3" code="C2d" subCode="#3" >
+    <scene title="Chalet_2d" code="C2d" subCode="#3" >
       <desc>Mira vous regarde, se demande si vous êtes sérieux, pousse un long soupir, ferme son livre et vous invite à vous asseoir.
 
 
@@ -311,7 +311,7 @@ Emplis maintenant tes petites mains comme ton monde des mille étoiles blanches 
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
-    <scene title="histoire4" code="C2d" subCode="#4" >
+    <scene title="Chalet_2d" code="C2d" subCode="#4" >
       <desc>Mira commence a en avoir un peu marre et trouve que c’est une relation très unilatérale, puis, après un long soupir, elle ferme son livre et vous invite à vous asseoir.
 
 
