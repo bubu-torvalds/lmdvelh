@@ -1189,10 +1189,34 @@ Quentin est aux manettes. Il tient un casque audio contre son oreille pour faire
     <scene title="dj_2" code="DJ2" subCode="2" >
       <desc>"Okay, tu veux que je mette quoi ?"</desc>
       <actions>
-        <question code="D"> "I’m sexy and I know it", d’LMFAO</question>
-        <question code="D"> "Sarbacane”" de Francis Cabrel</question>
+        <question code="DJ2c"> "I’m sexy and I know it", d’LMFAO</question>
+        <question code="DJ2d"> "Sarbacane”" de Francis Cabrel</question>
         <question code="DJ2a"> "Jean-Petit qui danse"</question>
         <question code="DJ2b"> "Tessellate" d’Alt-J. </question>
+      </actions>
+    </scene>
+	    <scene title="dj_2c" code="DJ2c" subCode="2c" >
+      <desc>"Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
+
+Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
+      <actions>
+        <question code="D1"> Vous observez Fabien.</question>
+        <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
+        <question code="D3"> Vous demandez à Lisa si ça va.</question>
+        <question code="D4"> Vous dansez.</question>
+        <question code="CA"> Se déplacer.</question>
+      </actions>
+    </scene>
+	    <scene title="dj_2d" code="DJ2d" subCode="2d" >
+      <desc>"Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
+
+Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
+      <actions>
+        <question code="D1"> Vous observez Fabien.</question>
+        <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
+        <question code="D3"> Vous demandez à Lisa si ça va.</question>
+        <question code="D4"> Vous dansez.</question>
+        <question code="CA"> Se déplacer.</question>
       </actions>
     </scene>
     <scene title="dj_2a" code="DJ2a" subCode="2a" >

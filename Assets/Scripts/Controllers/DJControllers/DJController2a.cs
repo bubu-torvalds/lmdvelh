@@ -9,11 +9,14 @@ public class DJController2a : MonoBehaviour {
     public Wedding wedding;
     public Text desc;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
 
         wedding = LoadXml.LoadXmlFile();
+
+        audioSource.Play();
 
         currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ2a");
 

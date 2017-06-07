@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class DJController2a1 : MonoBehaviour {
+public class DJController2d : MonoBehaviour {
 
     public Wedding wedding;
     public Text desc;
@@ -18,15 +18,15 @@ public class DJController2a1 : MonoBehaviour {
 
         audioSource.Play();
 
-        currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ2a1");
+        currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ2d");
 
     }
 
     // Update is called once per frame
     void Update() {
 
-        if (currentScene.getCode() == "DJ2a1") {
-            dj2a1();
+        if (currentScene.getCode() == "DJ2d") {
+            dj2d();
         } else if (currentScene.getCode() == "D1") {
             SceneManager.LoadScene("Dancefloor_1");
         } else if (currentScene.getCode() == "D2") {
@@ -40,7 +40,7 @@ public class DJController2a1 : MonoBehaviour {
         }
     }
 
-    void dj2a1() {
+    void dj2d() {
 
         desc.text = PrintText.printText(currentScene);
 
