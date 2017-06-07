@@ -18,7 +18,7 @@ public class EndGameController : MonoBehaviour {
 	void Update () {
 
         // La ligne suivante est SALE mais CrossFadeAlpha ne fonctionne pas pour d'obscure raison dans ce sens donc dirty code is dirty.
-        image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() + 0.001f);
+        image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() + 0.0003f);
 
     }
 }
