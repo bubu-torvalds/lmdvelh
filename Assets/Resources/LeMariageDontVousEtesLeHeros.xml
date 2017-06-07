@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <wedding>
   <scenes>
+      <scene title="Start" code="ST" subCode="0" >
+      <desc></desc>
+      <actions>
+        <question code="C"> Jouer</question>
+      </actions>
+    </scene>
     <scene title="Chalet" code="C" subCode="0" >
       <desc>Vous pénétrez dans le chalet. Le feu crépite dans la cheminée. Vous entendez plusieurs bruits déroutants mais vous ne savez pas d’où ils proviennent.</desc>
       <actions>
