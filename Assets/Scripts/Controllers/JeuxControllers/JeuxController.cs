@@ -50,13 +50,13 @@ public class JeuxController : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J2");
         } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J3");
-        } else if (Input.GetKeyDown(KeyCode.B)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "BUS");
-        } else if (Input.GetKeyDown(KeyCode.T)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "T");
-        } else if (Input.GetKeyDown(KeyCode.D)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.F)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad7)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F");
         }
     }

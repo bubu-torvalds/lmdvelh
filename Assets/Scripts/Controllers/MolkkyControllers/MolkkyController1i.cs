@@ -50,15 +50,15 @@ public class MolkkyController1i : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M2");
 
-        } else if (Input.GetKeyDown(KeyCode.B)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
 
-        } else if (Input.GetKeyDown(KeyCode.S)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S");
 
-        } else if (Input.GetKeyDown(KeyCode.D)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
 

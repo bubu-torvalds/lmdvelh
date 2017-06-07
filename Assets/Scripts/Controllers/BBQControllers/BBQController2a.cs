@@ -54,7 +54,7 @@ public class BBQController2a : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a1");
         } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a2");
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a3");
         } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a4");
@@ -62,11 +62,11 @@ public class BBQController2a : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a5");
         } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S1");
-        } else if (Input.GetKeyDown(KeyCode.M)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad7)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
-        } else if (Input.GetKeyDown(KeyCode.C)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad8)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
-        } else if (Input.GetKeyDown(KeyCode.B)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad9)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
         }
     }

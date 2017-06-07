@@ -46,7 +46,7 @@ public class DJController3 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ2");
         } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ4");
-        } else if (Input.GetKeyDown(KeyCode.D)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
         }
     }

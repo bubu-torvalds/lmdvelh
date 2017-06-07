@@ -46,11 +46,11 @@ public class ForetController1 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F2");
         } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F3");
-        } else if (Input.GetKeyDown(KeyCode.B)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
-        } else if (Input.GetKeyDown(KeyCode.D)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
-        } else if (Input.GetKeyDown(KeyCode.J)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "J");
         }
     }

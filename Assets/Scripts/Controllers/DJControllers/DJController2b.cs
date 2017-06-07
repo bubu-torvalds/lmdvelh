@@ -34,7 +34,7 @@ public class DJController2b : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.D)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
         }
     }

@@ -34,7 +34,7 @@ public class BusController : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.B)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
         }
     }
