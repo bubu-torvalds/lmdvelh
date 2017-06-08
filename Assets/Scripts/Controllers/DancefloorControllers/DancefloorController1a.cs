@@ -55,7 +55,7 @@ public class DancefloorController1a : MonoBehaviour {
 
         } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
 
-            currentScene = wedding.getScenes().Find(x => x.getCode() == "CA");
+            currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ");
 
         } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
 

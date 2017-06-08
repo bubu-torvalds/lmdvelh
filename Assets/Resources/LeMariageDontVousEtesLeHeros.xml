@@ -1215,6 +1215,7 @@ Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se 
         <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
         <question code="D3"> Vous demandez à Lisa si ça va.</question>
         <question code="D4"> Vous dansez.</question>
+		<question code="DJ"> Vous allez voir le DJ.</question>
         <question code="CA"> Se déplacer.</question>
       </actions>
     </scene>
@@ -1252,6 +1253,7 @@ Vous aussi, vous rejoignez la danse. </desc>
         <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
         <question code="D3"> Vous demandez à Lisa si ça va.</question>
         <question code="D4"> Vous dansez.</question>
+		<question code="DJ"> Vous allez voir le DJ.</question>
         <question code="CA"> Se déplacer.</question>
       </actions>
     </scene>
