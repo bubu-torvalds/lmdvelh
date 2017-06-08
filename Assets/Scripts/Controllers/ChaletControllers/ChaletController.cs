@@ -23,7 +23,7 @@ public class ChaletController : MonoBehaviour {
         
     // Update is called once per frame
     void Update() {
-        
+
         if (currentScene.getCode() == "C") {                    // On affiche les textes de l'entrée du chalet
             c();
         } else if (currentScene.getCode() == "C1") {            // On change de scene et on va à la porte des WC 

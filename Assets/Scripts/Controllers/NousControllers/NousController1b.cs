@@ -27,7 +27,7 @@ public class NousController1b : MonoBehaviour {
         } else if (currentScene.getCode() == "G") {
             SceneManager.LoadScene("EndGame");
         } else if (currentScene.getCode() == "M") {
-            SceneManager.LoadScene("Molkky_0");
+            SceneManager.LoadScene("Molkky");
         } 
 
     }

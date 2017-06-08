@@ -30,6 +30,8 @@ public class DancefloorController1a : MonoBehaviour {
             SceneManager.LoadScene("Dancefloor_3");
         } else if (currentScene.getCode() == "D4") {
             SceneManager.LoadScene("Dancefloor_4");
+        } else if (currentScene.getCode() == "DJ") {
+            SceneManager.LoadScene("DJ");
         } else if (currentScene.getCode() == "CA") {
             SceneManager.LoadScene("Carte");
         }
@@ -52,6 +54,10 @@ public class DancefloorController1a : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D4");
 
         } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+
+            currentScene = wedding.getScenes().Find(x => x.getCode() == "CA");
+
+        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "CA");
 

@@ -27,7 +27,7 @@ public class NousController1a : MonoBehaviour {
         } else if (currentScene.getCode() == "N1b") {
             SceneManager.LoadScene("Nous_1b");
         } else if (currentScene.getCode() == "M") {
-            SceneManager.LoadScene("Molkky_0");
+            SceneManager.LoadScene("Molkky");
         } 
 
     }

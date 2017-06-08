@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class EndGameController : MonoBehaviour {
 
     public Image image;
-    Color colour = Color.black;
 
     // Use this for initialization
     void Start () {

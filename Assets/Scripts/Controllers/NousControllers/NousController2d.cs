@@ -28,7 +28,7 @@ public class NousController2d : MonoBehaviour {
         if (currentScene.getCode() == "N2d") {
             n2d();
         } else if (currentScene.getCode() == "M") {
-            SceneManager.LoadScene("Molkky_0");
+            SceneManager.LoadScene("Molkky");
         } 
 
     }
