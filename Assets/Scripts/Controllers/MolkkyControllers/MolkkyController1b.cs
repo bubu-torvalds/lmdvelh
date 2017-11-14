@@ -34,7 +34,7 @@ public class MolkkyController1b : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M1b0");
 

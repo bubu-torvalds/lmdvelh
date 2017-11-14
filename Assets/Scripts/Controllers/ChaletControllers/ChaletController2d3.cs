@@ -39,19 +39,19 @@ public class ChaletController2d3 : MonoBehaviour {
     void c2dd4() {
         //desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
             currentScene = wedding.getScenes().Find(x => (x.getCode() == "C2d") && (x.getSubCode() == "#4"));
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C2b");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C2c");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
 

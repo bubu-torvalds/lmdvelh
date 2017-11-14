@@ -40,19 +40,19 @@ public class MolkkyController2 : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M1");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha2)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
 

@@ -46,27 +46,27 @@ public class DJController2c : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D1");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D2");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D3");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D4");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad6) || Input.GetKeyDown(KeyCode.Alpha6)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "CA");
 

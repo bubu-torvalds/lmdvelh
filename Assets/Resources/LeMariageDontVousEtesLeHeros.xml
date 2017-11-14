@@ -2,7 +2,9 @@
 <wedding>
   <scenes>
       <scene title="Start" code="ST" subCode="0" >
-      <desc></desc>
+      <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sapien vitae justo congue aliquet. Nullam rutrum sem eget justo pulvinar, nec condimentum nunc maximus. Sed semper mauris vel justo aliquam, ut tempor mauris condimentum. Nullam ut dui orci. Ut venenatis lacinia commodo. Integer id nibh neque. Sed commodo orci at luctus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam aliquam mauris in diam porta finibus. Duis maximus mauris sit amet scelerisque vestibulum. Aliquam pharetra posuere ligula et gravida.
+
+Fusce sed imperdiet nisi, eu aliquam mauris. Aliquam aliquet imperdiet nunc ac rhoncus. Nunc nec aliquam est. Vestibulum sollicitudin magna eget mauris facilisis scelerisque. Cras non sagittis libero. Donec quis auctor diam. Nam ullamcorper, odio vel mattis sagittis, sem lorem fermentum metus, quis imperdiet elit orci vitae ante. Vivamus eget dolor vitae neque pellentesque laoreet eu ut arcu. Donec eget purus at turpis scelerisque rhoncus quis nec eros. Ut ac metus ac quam interdum sodales. Etiam condimentum, purus id rhoncus imperdiet, arcu arcu dictum mi, a blandit lacus elit at sapien. Donec iaculis nunc in sapien rutrum, sit amet viverra orci consectetur.</desc>
       <actions>
         <question code="C"> Jouer</question>
       </actions>

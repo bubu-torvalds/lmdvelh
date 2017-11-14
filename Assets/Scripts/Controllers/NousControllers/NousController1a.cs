@@ -36,11 +36,11 @@ public class NousController1a : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "N1b");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
 

@@ -50,23 +50,23 @@ public class BBQController2a : MonoBehaviour {
 
         desc.text = PrintText.printText(currentScene);
 
-        if (Input.GetKeyDown(KeyCode.Keypad1)) {
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a1");
-        } else if (Input.GetKeyDown(KeyCode.Keypad2)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a2");
-        } else if (Input.GetKeyDown(KeyCode.Keypad3)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a3");
-        } else if (Input.GetKeyDown(KeyCode.Keypad4)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a4");
-        } else if (Input.GetKeyDown(KeyCode.Keypad5)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2a5");
-        } else if (Input.GetKeyDown(KeyCode.Keypad6)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad6) || Input.GetKeyDown(KeyCode.Alpha6)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S1");
-        } else if (Input.GetKeyDown(KeyCode.Keypad7)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad7) || Input.GetKeyDown(KeyCode.Alpha7)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "M");
-        } else if (Input.GetKeyDown(KeyCode.Keypad8)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad8) || Input.GetKeyDown(KeyCode.Alpha8)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
-        } else if (Input.GetKeyDown(KeyCode.Keypad9)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad9) || Input.GetKeyDown(KeyCode.Alpha9)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
         }
     }
