@@ -8,10 +8,13 @@ public class BBQController1 : MonoBehaviour {
 
     public Wedding wedding;
     public Text desc;
+    public GameObject map;
     private Scene currentScene;
 
     // Use this for initialization
     void Start() {
+
+        map.SetActive(false);
 
         wedding = LoadXml.LoadXmlFile();
         
@@ -40,6 +43,10 @@ public class BBQController1 : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S1a");
         } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S2");
+        } else if (Input.GetKeyDown(KeyCode.C)) {
+            map.SetActive(true);
+        } else if (Input.GetKeyUp(KeyCode.C)) {
+            map.SetActive(false);
         }
     }
 }

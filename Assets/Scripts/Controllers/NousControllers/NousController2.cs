@@ -8,10 +8,13 @@ public class NousController2 : MonoBehaviour {
 
     public Wedding wedding;
     public Text desc;
+    public GameObject map;
     private Scene currentScene;
 
     // Use this for initialization
     void Start () {
+
+        map.SetActive(false);
 
         wedding = LoadXml.LoadXmlFile();
         
@@ -50,6 +53,10 @@ public class NousController2 : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "N2c");
 
+        } else if (Input.GetKeyDown(KeyCode.C)) {
+            map.SetActive(true);
+        } else if (Input.GetKeyUp(KeyCode.C)) {
+            map.SetActive(false);
         }
     }
 }

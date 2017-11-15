@@ -8,11 +8,14 @@ public class ChaletController2c0 : MonoBehaviour {
 
     public Wedding wedding;
     public Text desc;
+    public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
+
+        map.SetActive(false);
 
         wedding = LoadXml.LoadXmlFile();
 
@@ -52,6 +55,10 @@ public class ChaletController2c0 : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
 
+        } else if (Input.GetKeyDown(KeyCode.C)) {
+            map.SetActive(true);
+        } else if (Input.GetKeyUp(KeyCode.C)) {
+            map.SetActive(false);
         }
     }
 }
