@@ -8,10 +8,13 @@ public class JeuxController : MonoBehaviour {
 
     public Wedding wedding;
     public Text desc;
+    public GameObject map;
     private Scene currentScene;
 
     // Use this for initialization
     void Start () {
+
+        map.SetActive(false);
 
         wedding = LoadXml.LoadXmlFile();
         
@@ -58,6 +61,10 @@ public class JeuxController : MonoBehaviour {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
         } else if (Input.GetKeyDown(KeyCode.Keypad7) || Input.GetKeyDown(KeyCode.Alpha7)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "F");
+        } else if (Input.GetKeyDown(KeyCode.C)) {
+            map.SetActive(true);
+        } else if (Input.GetKeyUp(KeyCode.C)) {
+            map.SetActive(false);
         }
     }
 }

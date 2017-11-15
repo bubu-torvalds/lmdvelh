@@ -8,10 +8,13 @@ public class BusController : MonoBehaviour {
 
     public Wedding wedding;
     public Text desc;
+    public GameObject map;
     private Scene currentScene;
 
     // Use this for initialization
     void Start () {
+
+        map.SetActive(false);
 
         wedding = LoadXml.LoadXmlFile();
         
@@ -36,6 +39,11 @@ public class BusController : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
+        } else if (Input.GetKeyDown(KeyCode.C)) {
+            map.SetActive(true);
+        } else if (Input.GetKeyUp(KeyCode.C)) {
+            map.SetActive(false);
         }
     }
 }
+
