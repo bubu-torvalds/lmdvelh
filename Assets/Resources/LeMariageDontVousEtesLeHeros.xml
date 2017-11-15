@@ -2,9 +2,20 @@
 <wedding>
   <scenes>
       <scene title="Start" code="ST" subCode="0" >
-      <desc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sapien vitae justo congue aliquet. Nullam rutrum sem eget justo pulvinar, nec condimentum nunc maximus. Sed semper mauris vel justo aliquam, ut tempor mauris condimentum. Nullam ut dui orci. Ut venenatis lacinia commodo. Integer id nibh neque. Sed commodo orci at luctus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam aliquam mauris in diam porta finibus. Duis maximus mauris sit amet scelerisque vestibulum. Aliquam pharetra posuere ligula et gravida.
+      <desc>Bienvenue au Mariage dont VOUS êtes le héros.
 
-Fusce sed imperdiet nisi, eu aliquam mauris. Aliquam aliquet imperdiet nunc ac rhoncus. Nunc nec aliquam est. Vestibulum sollicitudin magna eget mauris facilisis scelerisque. Cras non sagittis libero. Donec quis auctor diam. Nam ullamcorper, odio vel mattis sagittis, sem lorem fermentum metus, quis imperdiet elit orci vitae ante. Vivamus eget dolor vitae neque pellentesque laoreet eu ut arcu. Donec eget purus at turpis scelerisque rhoncus quis nec eros. Ut ac metus ac quam interdum sodales. Etiam condimentum, purus id rhoncus imperdiet, arcu arcu dictum mi, a blandit lacus elit at sapien. Donec iaculis nunc in sapien rutrum, sit amet viverra orci consectetur.</desc>
+Vous vous trouvez au cœur du Fjord du Saguenay, à Sacré-Cœur. 
+Dans le cadre idyllique de la Ferme 5 étoiles, vous êtes entouré de nature, d’animaux et des invités du mariage. Les arbres ont pris leurs couleurs d’automne, les enfants s’amusent sur le toboggan ou observent les loups à travers le grillage de leur enclos tandis que les adultes discutent gaiement au quatre coin de la Ferme.
+ 
+Mais voilà, parmi tout ce joyeux petit monde, impossible de trouver Hélène et Maxime.
+
+Ils ont disparus. 
+
+Vous vous lancez donc à leur recherche, et pour ce faire vous allez devoir vous balader dans la Ferme et parler aux invités afin de mener votre enquête et les retrouver.
+
+Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en faisant des choix. Pour valider vos choix vous devrez appuyer sur la touche numérique correspondante sur votre clavier (de 1 à 9). 
+
+</desc>
       <actions>
         <question code="C"> Jouer</question>
       </actions>
