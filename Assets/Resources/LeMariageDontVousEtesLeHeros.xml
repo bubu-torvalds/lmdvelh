@@ -1301,9 +1301,9 @@ Vous passez un moment très agréable avec lui, avant qu’il ne retourne dans l
       </actions>
     </scene>	
     <scene title="gagne" code="G" subCode="0" >
-      <desc>"PAGE GAGNANTE</desc>
+      <desc></desc>
       <actions>
-        <question code="P"> Rejouer</question>
+        <question code="P"></question>
       </actions>
     </scene>
   </scenes>

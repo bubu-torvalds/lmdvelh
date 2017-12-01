@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class EndGameController : MonoBehaviour {
-
+    
     public Image image;
 
     // Use this for initialization
     void Start () {
+        
         image.canvasRenderer.SetAlpha(0.0f);
 
     }
