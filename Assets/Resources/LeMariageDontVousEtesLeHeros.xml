@@ -54,9 +54,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Vous avancez dans le couloir. Celui-ci est décoré avec goût : des canvas représentants diverses races canines sont alignés sur les murs, de chaque côté. Un bruit étrange semble provenir de la porte au fond du couloir.</desc>
       <actions>
         <question code="C2a"> Vous décidez de vous attarder et d’observer un des tableaux.</question>
-        <question code="C2b"> Vous avancez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous avancez vers la porte à gauche.</question>
-        <question code="C2c"> Vous avancez vers la porte à droite.</question>
+        <question code="C2b"> Vous avancez vers la porte du milieu.</question>
+        <question code="C2d"> Vous avancez vers la porte de gauche.</question>
+        <question code="C2c"> Vous avancez vers la porte de droite.</question>
         <question code="C"> Vous changez d’avis et revenez sur vos pas.</question>
       </actions>
     </scene>
@@ -64,9 +64,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Un berger allemand à l’air sinistre vous dévisage. Vous vous balancez de droite à gauche, et celui-ci semble vous suivre du regard.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -74,9 +74,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>C’est le portrait d’un petit Jack Russell. Vous avez un petit pincement au coeur sans trop savoir pourquoi.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -84,9 +84,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>C’est le portrait d’un carlin qui semble vous dire : "ça te dirais-tu qu’on aille manger une poutine tous les deux ?"</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -94,9 +94,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Vous ne savez pas ce que c’est comme chien, mais vous vous dites qu’il doit sûrement s’appeler 'Croquette'.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -104,9 +104,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Oh ! Un husky !</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -114,9 +114,9 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Vous ne saurez pas exactement dire pourquoi, mais celui-là vous rappelle votre amour d’enfance.</desc>
       <actions>
         <question code="C2a"> Vous observez un autre tableau.</question>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -125,8 +125,8 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <actions>
         <question code="C2b_0"> "Hélène ? Max ?"</question>
         <question code="C2b_1"> Vous toquez à la porte.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -134,8 +134,8 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Les gémissements s’interrompent un instant et reprennent de plus belle.</desc>
       <actions>
         <question code="C2b_1"> Vous toquez à la porte.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -143,8 +143,8 @@ Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en 
       <desc>Rien ne se passe.</desc>
       <actions>
         <question code="C2b_0"> "Hélène ? Max ?"</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -161,7 +161,7 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
       </desc>
       <actions>
         <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2d"> Vous vous dirigez vers la première porte à gauche.</question>
+        <question code="C2d"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -170,7 +170,7 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
       Tout à coup, Fabien se prend un violent jet de pipi au visage. Vous comprenez qu’il est temps de vous éclipser.
       </desc>
       <actions>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
         <question code="C2d"> Vous vous dirigez vers la première porte à gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
@@ -179,8 +179,8 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
       <desc>Vous ouvrez doucement la porte. Assise sur le lit, la petite Mira semble très absorbée dans la lecture d’un livre.</desc>
       <actions>
         <question code="C2d"> Vous lui demandez de vous raconter une histoire.</question>
-        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
+        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -208,8 +208,8 @@ Et là, le grand-père réfléchit un instant et dit :
 - C'est celui que tu nourris, mon petit..."</desc>
       <actions>
         <question code="C2d"> Vous applaudissez et demandez une autre histoire.</question>
-        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
+        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -274,8 +274,8 @@ Cent ans ont passé. Là où jadis le gland était tombé, un magnifique chêne 
 Clic-ouïe ! Pschitt-crac-aïe ! Pouuuuuuuuuuuuuuuh... pouf ! Shhhhhhhhhhhhhhhhhhh... shbing !"</desc>
       <actions>
         <question code="C2d"> Vous applaudissez et demandez une autre histoire.</question>
-        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
+        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte du milieu.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -326,7 +326,7 @@ Emplis maintenant tes petites mains comme ton monde des mille étoiles blanches 
       <actions>
         <question code="C2d"> Vous applaudissez et demandez une autre histoire.</question>
         <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte au fond du couloir.</question>
-        <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
+        <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
     </scene>
@@ -350,7 +350,7 @@ Puis Patou s'est dépatouillé pour revenir se faire tripatouiller.
 L'hiver arrive et moi je trouve que tout ça mis bout à bout, ça fait quand même un peu beaucoup, surtout dans la vie d'un toutou. Mais de l'avis d'un toutou, ça ne sera pas tout.
 D'ailleurs, Patou le toutou est à nouveau couvert de longs poilous tout doux. Il réclame des chatouilles et des papouilles pour son bidou. Il me fait aussi plein de bisous tout en se léchouillant partout, vraiment partout."</desc>
       <actions>
-        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte au fond du couloir.</question>
+        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte du milieu.</question>
         <question code="C2c"> Vous vous dirigez vers la première porte à droite.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
