@@ -13,9 +13,9 @@ Ils ont disparus.
 
 Vous vous lancez donc à leur recherche, et pour ce faire vous allez devoir vous balader dans la Ferme et parler aux invités afin de mener votre enquête et les retrouver.
 
-Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en faisant des choix. Pour valider vos choix vous devrez appuyer sur la touche numérique correspondante sur votre clavier (de 1 à 9). 
+Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en faisant des choix. Pour valider vos choix vous devrez appuyer sur la touche numérique correspondante sur votre clavier (de 1 à 9).
 
-</desc>
+A n'importe quel moment du jeu, si vous vous sentez perdu, appuyer sur C pour afficher la carte.</desc>
       <actions>
         <question code="C"> Jouer</question>
       </actions>
