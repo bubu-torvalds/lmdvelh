@@ -10,6 +10,8 @@ public class BarController3c : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
+
 
     // Use this for initialization
     void Start () {
@@ -28,6 +30,7 @@ public class BarController3c : MonoBehaviour {
         if (currentScene.getCode() == "B3c") {
             b3c();
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         }
 

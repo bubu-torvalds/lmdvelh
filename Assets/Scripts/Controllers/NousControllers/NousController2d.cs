@@ -11,6 +11,7 @@ public class NousController2d : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public AudioSource audioSourceClic;
 
     // Use this for initialization
     void Start() {
@@ -31,6 +32,7 @@ public class NousController2d : MonoBehaviour {
         if (currentScene.getCode() == "N2d") {
             n2d();
         } else if (currentScene.getCode() == "M") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Molkky");
         } 
 

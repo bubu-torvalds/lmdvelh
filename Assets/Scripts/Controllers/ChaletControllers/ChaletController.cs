@@ -12,6 +12,7 @@ public class ChaletController : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -29,15 +30,20 @@ public class ChaletController : MonoBehaviour {
 
         if (currentScene.getCode() == "C") {                    // On affiche les textes de l'entrée du chalet
             c();
-        } else if (currentScene.getCode() == "C1") {            // On change de scene et on va à la porte des WC 
+        } else if (currentScene.getCode() == "C1") {
+            audioSource.Play();         // On change de scene et on va à la porte des WC 
             SceneManager.LoadScene("Chalet_1");
-        } else if (currentScene.getCode() == "C2") {            // On change de scene et on va dans le couloir
+        } else if (currentScene.getCode() == "C2") {
+            audioSource.Play();           // On change de scene et on va dans le couloir
             SceneManager.LoadScene("Chalet_2");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "T") {
+            audioSource.Play();
             SceneManager.LoadScene("Table");
         } else if (currentScene.getCode() == "S") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ");
         }
 

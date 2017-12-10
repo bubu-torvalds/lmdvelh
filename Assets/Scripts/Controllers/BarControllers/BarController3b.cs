@@ -10,6 +10,7 @@ public class BarController3b : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -28,12 +29,16 @@ public class BarController3b : MonoBehaviour {
         if (currentScene.getCode() == "B3b") {
             b3b();
         } else if (currentScene.getCode() == "B3c") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar_3c");
         } else if (currentScene.getCode() == "B3c") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar_3c");
         } else if (currentScene.getCode() == "B3c") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar_3c");
         } else if (currentScene.getCode() == "B3c") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar_3c");
         } 
     }

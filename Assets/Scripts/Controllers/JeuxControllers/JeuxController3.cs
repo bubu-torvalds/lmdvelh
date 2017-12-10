@@ -10,6 +10,7 @@ public class JeuxController3 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -28,6 +29,7 @@ public class JeuxController3 : MonoBehaviour {
         if (currentScene.getCode() == "J3") {
             j3();
         } else if (currentScene.getCode() == "M") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky");        
         } 
 

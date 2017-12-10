@@ -10,6 +10,7 @@ public class ForetController2 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -28,14 +29,19 @@ public class ForetController2 : MonoBehaviour {
         if (currentScene.getCode() == "F2") {
             f2();
         } else if (currentScene.getCode() == "F1") {
+            audioSource.Play();
             SceneManager.LoadScene("Foret_1");
         } else if (currentScene.getCode() == "F3") {
+            audioSource.Play();
             SceneManager.LoadScene("Foret_3");
         } else if (currentScene.getCode() == "B") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "J") {
+            audioSource.Play();
             SceneManager.LoadScene("Jeux");
         }
 

@@ -10,6 +10,7 @@ public class NousController1b : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,8 +29,10 @@ public class NousController1b : MonoBehaviour {
         if (currentScene.getCode() == "N1b") {
             n1b();
         } else if (currentScene.getCode() == "G") {
+            audioSource.Play();
             SceneManager.LoadScene("EndGame");
         } else if (currentScene.getCode() == "M") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky");
         } 
 

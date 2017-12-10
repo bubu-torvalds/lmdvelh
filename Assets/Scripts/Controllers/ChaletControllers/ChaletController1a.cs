@@ -11,6 +11,7 @@ public class ChaletController1a : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -29,8 +30,10 @@ public class ChaletController1a : MonoBehaviour {
         if (currentScene.getCode() == "C1a") {
             c1a();
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         } else if (currentScene.getCode() == "C1a_0") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_1a0");
         }
 

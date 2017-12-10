@@ -11,6 +11,7 @@ public class NousController2c : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public AudioSource audioSourceClic;
 
     // Use this for initialization
     void Start() {
@@ -31,10 +32,13 @@ public class NousController2c : MonoBehaviour {
         if (currentScene.getCode() == "N2c") {
             n2c();
         } else if (currentScene.getCode() == "N2a") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Nous_2a");
         } else if (currentScene.getCode() == "N2b") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Nous_2b");
         } else if (currentScene.getCode() == "N2d") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Nous_2d");
         }
 

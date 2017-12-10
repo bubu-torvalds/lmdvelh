@@ -11,6 +11,8 @@ public class DJController2a : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public AudioSource audioSourceClic;
+
 
     // Use this for initialization
     void Start() {
@@ -31,6 +33,7 @@ public class DJController2a : MonoBehaviour {
         if (currentScene.getCode() == "DJ2a") {
             dj2a();
         } else if (currentScene.getCode() == "DJ2a1") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("DJ_2a1");
         } 
     }

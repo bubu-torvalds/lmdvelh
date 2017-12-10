@@ -10,6 +10,7 @@ public class JeuxController2 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -28,14 +29,19 @@ public class JeuxController2 : MonoBehaviour {
         if (currentScene.getCode() == "J2") {
             j2();
         } else if (currentScene.getCode() == "J1") {
+            audioSource.Play();
             SceneManager.LoadScene("Jeux_1");        
         } else if (currentScene.getCode() == "J3") {
+            audioSource.Play();
             SceneManager.LoadScene("Jeux_3");
         } else if (currentScene.getCode() == "BUS") {
+            audioSource.Play();
             SceneManager.LoadScene("Bus");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "F") {
+            audioSource.Play();
             SceneManager.LoadScene("Foret");
         }
 

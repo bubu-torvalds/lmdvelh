@@ -10,6 +10,7 @@ public class BusController : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -28,6 +29,7 @@ public class BusController : MonoBehaviour {
         if (currentScene.getCode() == "BUS") {
             bus();
         } else if (currentScene.getCode() == "B") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar");
         }
 

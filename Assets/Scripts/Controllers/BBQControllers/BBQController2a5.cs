@@ -10,6 +10,7 @@ public class BBQController2a5 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,6 +29,7 @@ public class BBQController2a5 : MonoBehaviour {
         if (currentScene.getCode() == "S2a5") {
             s2a5();
         } else if (currentScene.getCode() == "S2a51") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ_2a51");
         } 
 

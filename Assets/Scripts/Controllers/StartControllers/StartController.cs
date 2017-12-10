@@ -10,6 +10,7 @@ public class StartController : MonoBehaviour {
     public Text desc;
     private Scene currentScene;
     public AudioSource audioSource;
+    public AudioSource audioSourceClic;
 
     // Use this for initialization
     void Start() {
@@ -28,6 +29,7 @@ public class StartController : MonoBehaviour {
         if (currentScene.getCode() == "ST") {
             st();
         } else if (currentScene.getCode() == "C") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Chalet");
         } 
     }

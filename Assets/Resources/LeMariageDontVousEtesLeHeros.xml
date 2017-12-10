@@ -167,7 +167,7 @@ Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est te
     </scene>
     <scene title="Chalet_2c1" code="C2c_1" subCode="2c_1" >
       <desc>"Non, la dernière fois que je les ai vus, ils étaient en train de boire un verre de..." 
-      Tout à coup, Fabien se prend un violent jet de pipi au visage. Vous comprenez qu’il est temps de vous éclipser.
+Tout à coup, Fabien se prend un violent jet de pipi au visage. Vous comprenez qu’il est temps de vous éclipser.
       </desc>
       <actions>
         <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>

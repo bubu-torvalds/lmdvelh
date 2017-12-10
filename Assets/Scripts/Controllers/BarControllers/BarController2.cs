@@ -10,6 +10,7 @@ public class BarController2 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -28,14 +29,19 @@ public class BarController2 : MonoBehaviour {
         if (currentScene.getCode() == "B2") {
             b2();
         } else if (currentScene.getCode() == "B1") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar_1");
         }  else if (currentScene.getCode() == "B3") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar_3");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "M") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky");
         } else if (currentScene.getCode() == "F") {
+            audioSource.Play();
             SceneManager.LoadScene("Foret");
         }
 

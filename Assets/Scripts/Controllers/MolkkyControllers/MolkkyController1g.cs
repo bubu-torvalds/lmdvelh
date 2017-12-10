@@ -10,6 +10,7 @@ public class MolkkyController1g : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,14 +29,19 @@ public class MolkkyController1g : MonoBehaviour {
         if (currentScene.getCode() == "M1g") {
             m1g();
         } else if (currentScene.getCode() == "M1h") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky_1h");
         } else if (currentScene.getCode() == "M2") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky_2");
         } else if (currentScene.getCode() == "B") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar");
         } else if (currentScene.getCode() == "S") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         }
 

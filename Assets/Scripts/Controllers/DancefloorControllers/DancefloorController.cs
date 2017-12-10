@@ -10,6 +10,7 @@ public class DancefloorController : MonoBehaviour {
 	public Text desc;
     public GameObject map;
 	private Scene currentScene;
+    public AudioSource audioSource;
 	
 	// Use this for initialization
 	void Start() {
@@ -27,18 +28,24 @@ public class DancefloorController : MonoBehaviour {
 		
 		if (currentScene.getCode() == "D") {                    
 			d();
-		} else if (currentScene.getCode() == "D1") {            
-			SceneManager.LoadScene("Dancefloor_1");
-		} else if (currentScene.getCode() == "D2") {            
-			SceneManager.LoadScene("Dancefloor_2");
+		} else if (currentScene.getCode() == "D1") {
+            audioSource.Play();
+            SceneManager.LoadScene("Dancefloor_1");
+		} else if (currentScene.getCode() == "D2") {
+            audioSource.Play();
+            SceneManager.LoadScene("Dancefloor_2");
 		} else if (currentScene.getCode() == "D3") {
-			SceneManager.LoadScene("Dancefloor_3");
+            audioSource.Play();
+            SceneManager.LoadScene("Dancefloor_3");
 		} else if (currentScene.getCode() == "D4") {
-			SceneManager.LoadScene("Dancefloor_4");
+            audioSource.Play();
+            SceneManager.LoadScene("Dancefloor_4");
 		} else if (currentScene.getCode() == "DJ") {
+            audioSource.Play();
             SceneManager.LoadScene("DJ");
         } else if (currentScene.getCode() == "CA") {
-			SceneManager.LoadScene("Carte");
+            audioSource.Play();
+            SceneManager.LoadScene("Carte");
 		}		
 	}
 	

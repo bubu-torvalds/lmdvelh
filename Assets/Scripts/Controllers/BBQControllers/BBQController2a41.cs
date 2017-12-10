@@ -10,6 +10,7 @@ public class BBQController2a41 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,20 +29,28 @@ public class BBQController2a41 : MonoBehaviour {
         if (currentScene.getCode() == "S2a41") {
             s2a41();
         } else if (currentScene.getCode() == "S2a1") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ_2a1");
         } else if (currentScene.getCode() == "S2a2") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ_2a2");
         } else if (currentScene.getCode() == "S2a3") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ_2a3");
         } else if (currentScene.getCode() == "S2a5") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ_2a5");
         } else if (currentScene.getCode() == "S1") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ_1");
         } else if (currentScene.getCode() == "M") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky");
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         } else if (currentScene.getCode() == "B") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar");
         }
 

@@ -10,6 +10,7 @@ public class MolkkyController1b : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,6 +29,7 @@ public class MolkkyController1b : MonoBehaviour {
         if (currentScene.getCode() == "M1b") {
             m1b();
         } else if (currentScene.getCode() == "M1b0") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky_1b0");
         } 
 

@@ -9,6 +9,7 @@ public class CarteController : MonoBehaviour {
     public Wedding wedding;
     public Text desc;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -25,20 +26,28 @@ public class CarteController : MonoBehaviour {
         if (currentScene.getCode() == "CA") {
             ca();
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         } else if (currentScene.getCode() == "T") {
+            audioSource.Play();
             SceneManager.LoadScene("Table");
         } else if (currentScene.getCode() == "J") {
+            audioSource.Play();
             SceneManager.LoadScene("Jeux");
         } else if (currentScene.getCode() == "F") {
+            audioSource.Play();
             SceneManager.LoadScene("Foret");
         } else if (currentScene.getCode() == "B") {
+            audioSource.Play();
             SceneManager.LoadScene("Bar");
         } else if (currentScene.getCode() == "M") {
+            audioSource.Play();
             SceneManager.LoadScene("Molkky");
         } else if (currentScene.getCode() == "S") {
+            audioSource.Play();
             SceneManager.LoadScene("BBQ");
         } else if (currentScene.getCode() == "DJ") {
+            audioSource.Play();
             SceneManager.LoadScene("DJ");
         }
     }

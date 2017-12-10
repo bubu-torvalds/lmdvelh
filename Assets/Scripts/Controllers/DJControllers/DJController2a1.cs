@@ -9,6 +9,7 @@ public class DJController2a1 : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public AudioSource audioSourceClic;
 
     // Use this for initialization
     void Start() {
@@ -29,16 +30,22 @@ public class DJController2a1 : MonoBehaviour {
         if (currentScene.getCode() == "DJ2a1") {
             dj2a1();
         } else if (currentScene.getCode() == "D1") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Dancefloor_1");
         } else if (currentScene.getCode() == "D2") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Dancefloor_2");
         } else if (currentScene.getCode() == "D3") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Dancefloor_3");
         } else if (currentScene.getCode() == "D4") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Dancefloor_4");
         } else if (currentScene.getCode() == "DJ") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("DJ");
         } else if (currentScene.getCode() == "CA") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Carte");
         }
     }

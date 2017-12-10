@@ -10,6 +10,7 @@ public class DJController3 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,12 +29,16 @@ public class DJController3 : MonoBehaviour {
         if (currentScene.getCode() == "DJ3") {
             dj3();
         } else if (currentScene.getCode() == "DJ1") {
+            audioSource.Play();
             SceneManager.LoadScene("DJ_1");
         } else if (currentScene.getCode() == "DJ2") {
+            audioSource.Play();
             SceneManager.LoadScene("DJ_2");
         } else if (currentScene.getCode() == "DJ4") {
+            audioSource.Play();
             SceneManager.LoadScene("DJ_4");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         }
 

@@ -11,6 +11,7 @@ public class ChaletController2 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -29,17 +30,22 @@ public class ChaletController2 : MonoBehaviour {
         if (currentScene.getCode() == "C2") {
             c2();
         } else if (currentScene.getCode() == "C2a") {
+            audioSource.Play();
             int rand = Randomizer.random(1, 6);
             print(rand);
             print("Chalet_canevas_" + rand);
             SceneManager.LoadScene("Chalet_2a" + rand);
-        } else if (currentScene.getCode() == "C2b") {               // On change de scene et on va vers la porte du fond (chambre mysterieuse)
+        } else if (currentScene.getCode() == "C2b") {
+            audioSource.Play();            // On change de scene et on va vers la porte du fond (chambre mysterieuse)
             SceneManager.LoadScene("Chalet_2b");
         } else if (currentScene.getCode() == "C2c") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_2c");
         } else if (currentScene.getCode() == "C2d") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_2d");
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         }
 

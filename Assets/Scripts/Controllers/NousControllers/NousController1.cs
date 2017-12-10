@@ -10,6 +10,7 @@ public class NousController1 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -28,6 +29,7 @@ public class NousController1 : MonoBehaviour {
         if (currentScene.getCode() == "N1") {
             n1();
         } else if (currentScene.getCode() == "N1a") {
+            audioSource.Play();
             SceneManager.LoadScene("Nous_1a");
         } 
 

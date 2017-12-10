@@ -10,7 +10,7 @@ public class ChaletController2a6 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
-
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start() {
@@ -31,14 +31,19 @@ public class ChaletController2a6 : MonoBehaviour {
         if (currentScene.getCode() == "C2a" && currentScene.getSubCode() == "#6") {
             c2aa6();
         } else if (currentScene.getCode() == "C2a") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_2a2");
         } else if (currentScene.getCode() == "C2b") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_2b");
         } else if (currentScene.getCode() == "C2c") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_2c");
         } else if (currentScene.getCode() == "C2d") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet_2d");
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         }
 

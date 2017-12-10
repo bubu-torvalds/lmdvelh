@@ -11,6 +11,7 @@ public class DJController2b : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public AudioSource audioSourceClic;
 
     // Use this for initialization
     void Start() {
@@ -31,6 +32,7 @@ public class DJController2b : MonoBehaviour {
         if (currentScene.getCode() == "DJ2b") {
             dj2b();
         } else if (currentScene.getCode() == "D") {
+            audioSourceClic.Play();
             SceneManager.LoadScene("Dancefloor");
         }
 

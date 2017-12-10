@@ -8,6 +8,7 @@ public class TableController2 : MonoBehaviour {
     public Text desc;
     public GameObject map;
     private Scene currentScene;
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start () {
@@ -26,12 +27,16 @@ public class TableController2 : MonoBehaviour {
         if (currentScene.getCode() == "T2") {
             t2();
         } else if (currentScene.getCode() == "T1") {
+            audioSource.Play();
             SceneManager.LoadScene("Table_1");
         } else if (currentScene.getCode() == "J") {
+            audioSource.Play();
             SceneManager.LoadScene("Jeux");
         } else if (currentScene.getCode() == "D") {
+            audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
         } else if (currentScene.getCode() == "C") {
+            audioSource.Play();
             SceneManager.LoadScene("Chalet");
         }
 
