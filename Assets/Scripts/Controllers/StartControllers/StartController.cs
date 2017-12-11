@@ -28,10 +28,10 @@ public class StartController : MonoBehaviour {
 
         if (currentScene.getCode() == "ST") {
             st();
-        } else if (currentScene.getCode() == "C") {
+        } /*else if (currentScene.getCode() == "C") {
             audioSourceClic.Play();
             SceneManager.LoadScene("Chalet");
-        } 
+        } */
     }
 
     void st() {
@@ -40,7 +40,8 @@ public class StartController : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
-            currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
+            //currentScene = wedding.getScenes().Find(x => x.getCode() == "C");
+            SceneManager.LoadScene("PostStart");
 
         } 
     }
