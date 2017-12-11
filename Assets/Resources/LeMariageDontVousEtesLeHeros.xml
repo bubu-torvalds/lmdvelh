@@ -38,13 +38,13 @@ Bienvenue au mariage dont VOUS êtes le héros.
       </actions>
     </scene>
     <scene title="Chalet" code="C" subCode="0" >
-      <desc>Vous pénétrez dans le chalet. Le feu crépite dans la cheminée. Vous entendez plusieurs bruits déroutants mais vous ne savez pas d’où ils proviennent.</desc>
+      <desc>Vous êtes à l’entrée du chalet. Le feu crépite dans la cheminée. Vous entendez plusieurs bruits déroutants mais vous ne savez pas d’où ils proviennent.</desc>
       <actions>
         <question code="C1"> Vous vous dirigez vers la porte à droite.</question>
         <question code="C2"> Vous avancez dans le couloir.</question>
-        <question code="D"> L’appel de la musique est trop fort. Vous rejoignez la piste de danse.</question>
-        <question code="T"> Vous avez un gros coup de barre et décidez d’aller vous asseoir à table.</question>
-        <question code="S"> Vous ne résistez pas à cette douce odeur de viande grillée. Vous allez au stand BBQ.</question>
+        <question code="D"> L’appel de la musique est trop fort. Vous sortez pour rejoindre la piste de danse.</question>
+        <question code="T"> Finalement, vous décidez d’aller vous asseoir dehors avec les autres.</question>
+        <question code="S"> L’ odeur de viande grillée vous attire. Vous sortez pour aller au stand BBQ.</question>
       </actions>
     </scene>
     <scene title="Chalet_1" code="C1" subCode="1" >
@@ -68,7 +68,7 @@ Bienvenue au mariage dont VOUS êtes le héros.
       </actions>
     </scene>
     <scene title="Chalet_2" code="C2" subCode="2" >
-      <desc>Vous avancez dans le couloir. Celui-ci est décoré avec goût : des canvas représentants diverses races canines sont alignés sur les murs, de chaque côté. Un bruit étrange semble provenir de la porte au fond du couloir.</desc>
+      <desc>Vous avancez dans le couloir. Celui-ci est décoré avec goût : des canvas représentants diverses races canines sont alignés sur les murs, de chaque côté. Un bruit étrange semble provenir de la porte du milieu.</desc>
       <actions>
         <question code="C2a"> Vous décidez de vous attarder et d’observer un des tableaux.</question>
         <question code="C2b"> Vous avancez vers la porte du milieu.</question>
@@ -173,11 +173,12 @@ Bienvenue au mariage dont VOUS êtes le héros.
       </actions>
     </scene>
     <scene title="Chalet_2c0" code="C2c_0" subCode="2c_0" >
-      <desc>Ces petits pieds dodus sont irrésistibles. Alexis rit de bon coeur, et vous riez aussi. 
-Il n’apprécie pas que vous vous moquiez de lui, vous comprenez qu’il est temps de vous éclipser.
+      <desc>Ces petits pieds dodus sont irrésistibles. Alexis rit de bon coeur, et vous riez aussi. Mais ça ne dure pas longtemps...
+
+Il n’apprécie pas que vous vous moquiez de lui et vous comprenez à ses cris qu’il est temps de vous éclipser.
       </desc>
       <actions>
-        <question code="C2b"> Vous vous dirigez vers la porte au fond du couloir.</question>
+        <question code="C2b"> Vous vous dirigez vers la porte du milieu.</question>
         <question code="C2d"> Vous vous dirigez vers la porte de gauche.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
@@ -193,7 +194,7 @@ Tout à coup, Fabien se prend un violent jet de pipi au visage. Vous comprenez q
       </actions>
     </scene>
     <scene title="Chalet_2d" code="C2d" subCode="2d" >
-      <desc>Vous ouvrez doucement la porte. Assise sur le lit, la petite Mira semble très absorbée dans la lecture d’un livre.</desc>
+      <desc>Vous ouvrez doucement la porte. Assise sur le lit, la petite Mira semble très absorbée dans la lecture d’un livre. Un bébé inconnu dort à ses côtés dans un berceau.</desc>
       <actions>
         <question code="C2d"> Vous lui demandez de vous raconter une histoire.</question>
         <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte du milieu.</question>
@@ -342,7 +343,7 @@ Touche-la encore du bout des doigts, ressens encore sa froideur avant de retrouv
 Emplis maintenant tes petites mains comme ton monde des mille étoiles blanches qui ont fait briller tes yeux. Pèse leur légèreté, façonne d'autres formes dans le creux de ta paume, ou souffle encore pour que s'envolent vers le soleil autant de paillettes que le ciel peut compter d'étoiles."</desc>
       <actions>
         <question code="C2d"> Vous applaudissez et demandez une autre histoire.</question>
-        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte au fond du couloir.</question>
+        <question code="C2b"> Vous ne la dérangez pas et vous vous dirigez vers la porte du milieu.</question>
         <question code="C2c"> Vous vous dirigez vers la porte de droite.</question>
         <question code="C"> Vous retournez dans l’entrée.</question>
       </actions>
@@ -375,11 +376,11 @@ D'ailleurs, Patou le toutou est à nouveau couvert de longs poilous tout doux. I
     <scene title="tables" code="T" subCode="0" >
       <desc>Vous arrivez au niveau des tables et vous êtes étonné de constater qu’il n’y a pas grand-monde. C’est que les gens doivent drôlement s’amuser !
 
-Vous apercevez Amandine (Ohland) et Arnaud. Ils ont l’air pris dans une conversation passionnante et se dévorent timidement des yeux.</desc>
+Vous apercevez Amandine, une amie d’Hélène, et Arnaud, un ami de Maxime. Ils ont l’air pris dans une conversation passionnante et se dévorent timidement des yeux.</desc>
       <actions>
         <question code="T1"> Vous les interrompez : 'Est-ce que vous avez vu Max et Hélène ?'</question>
         <question code="T2"> Vous les observez un instant, heureux d’assister à ce qui pourrait être le début d’une grande histoire d’amour.</question>
-        <question code="J"> Vous les trouvez chiants et vous décidez d’aller aux jeux pour enfants.</question>
+        <question code="J"> Vous ne les trouvez pas très intéressants et vous décidez d’aller aux jeux pour enfants.</question>
         <question code="D"> Vous ne préférez pas les déranger et vous allez danser.</question>
         <question code="C"> Vous ressentez d’un coup le froid canadien et vous rentrez vous réchauffer.</question>
         <question code="BUS"> Vous apercevez le bus au loin et vous décidez d’aller voir par là.</question>
@@ -388,7 +389,7 @@ Vous apercevez Amandine (Ohland) et Arnaud. Ils ont l’air pris dans une conver
     <scene title="table_1" code="T1" subCode="1" >
       <desc>Visiblement dérangé par cette interruption, Arnaud vous lance d’un ton sec : "Non, je sais pas où ils sont", avant de se replonger dans le doux regard d’Amandine.</desc>
       <actions>
-        <question code="J"> Vous les trouvez chiants et vous décidez d’aller aux jeux pour enfants.</question>
+        <question code="J"> Vous ne les trouvez pas très intéressants et vous décidez d’aller aux jeux pour enfants.</question>
         <question code="D"> Vous ne préférez pas les déranger et vous allez danser.</question>
         <question code="C"> Vous ressentez d’un coup le froid canadien et vous rentrez vous réchauffer.</question>
       </actions>
@@ -399,7 +400,7 @@ Vous apercevez Amandine (Ohland) et Arnaud. Ils ont l’air pris dans une conver
 Qui aurait pu prévoir que ces deux-là s’entendraient ?</desc>
       <actions>
         <question code="T1"> Vous les interrompez : 'Est-ce que vous avez vu Max et Hélène ?'</question>
-        <question code="J"> Vous les trouvez chiants et vous décidez d’aller aux jeux pour enfants.</question>
+        <question code="J"> Vous ne les trouvez pas très intéressants et vous décidez d’aller aux jeux pour enfants.</question>
         <question code="D"> Vous ne préférez pas les déranger et vous allez danser.</question>
         <question code="C"> Vous ressentez d’un coup le froid canadien et vous rentrez vous réchauffer.</question>
       </actions>
@@ -417,9 +418,9 @@ Par contre, ils ne sont pas là non plus. </desc>
     <scene title="jeux_0" code="J" subCode="0" >
       <desc>En vous approchant des jeux d’enfants, vous entendez un drôle de cri. 
 
-Au milieu du bac à sable, la petite Iris a le bras tendu en l’air et scande : "Doudou ! Doudou !"
+Au milieu du bac à sable, la petite Iris a le bras tendu en l’air et scande : "Doudou ! Doudou !" en regardant une petite fille qui a l’air très gentille, même si on le connaît pas encore.
 
-Lysianne et Lina, la maman de Max, l’observent tendrement tout en discutant.</desc>
+Lysianne et Lina, la maman de Max, les observent tendrement tout en discutant.</desc>
       <actions>
         <question code="J1"> "Je cherche Max et Hélène."</question>
         <question code="J2"> Vous demandez à Iris si elle a besoin de quelque chose.</question>
@@ -532,10 +533,9 @@ Elle a l’air sympa, cette Sandrine. C’est vraiment quelqu’un à qui je par
     <scene title="bar_0" code="B" subCode="0" >
       <desc>Ah ! Vous avez trouvé le bar.
 
-Sur la table, une sélection de bière artisanales entourent le plus gros fût que vous ayez jamais vu.
+Sur la table, une sélection de bières artisanales et locales entourent le plus gros fût que vous ayez jamais vu.
 
-Etienne, le père d’Hélène, Thibaud et Elsa sont rassemblés autour du fût de bière. Ils ont l’air de passer un bon moment.
-</desc>
+Etienne, le père d’Hélène, Thibaud, Elsa et Serge sont rassemblés autour du fût de bière. Ils ont l’air de passer un bon moment.</desc>
       <actions>
         <question code="B1"> "Alors, Etienne, on est content ?"</question>
         <question code="B2"> "Parlons un peu politique."</question>
@@ -663,7 +663,7 @@ Ah non, ce n’est pas un bateau. Vous êtes aux toilettes. Vous ne savez pas co
 Ça tombe bien : vous avez terminé, et vous vous sentez beaucoup plus léger.
 </desc>
       <actions>
-        <question code="C"> Vous sortez, et vous vous retrouvez dans l’entrée du chalet.</question>
+        <question code="C"> Sortir des toilettes et retourner dans l’entrée du chalet.</question>
       </actions>
     </scene>
     <scene title="molkky_0" code="M" subCode="0" >
@@ -680,7 +680,7 @@ De l’autre, Nico et Julien, le frère d’Hélène.</desc>
     <scene title="molkky_00" code="M0" subCode="0" >
       <desc>Lena, Lena, ce nom vous dit quelque chose. Ah mais oui !
 
-C’est elle qui a créé le visuel de départ de ce jeu ! Quelle artiste !
+C’est elle qui a créé le visuel de départ de ce jeu, ainsi que les invitations que vous avez reçues ! Quelle artiste !
 
 Bref, vous sentez bien que la tension est à son comble.</desc>
       <actions>
@@ -786,7 +786,7 @@ Les garçons retombent à 25 points.</desc>
     <scene title="molkky_1e" code="M1e" subCode="1e" >
       <desc>"Oui ben ça va, si t’es pas content, t’as qu’à jouer à ma place."</desc>
       <actions>
-        <question code="M1f"> "Franchement, pour un mec qui fais du sport, c’est pas terrible."</question>
+        <question code="M1f"> "Franchement, pour un mec qui fait du sport, c’est pas terrible."</question>
         <question code="M2"> "Je peux jouer ?"</question>
         <question code="B"> Meh. Vous préférez aller au bar.</question>
         <question code="S"> Vous avez un petit creux. Ça tombe bien, les saucisses sont prêtes.</question>
@@ -1128,7 +1128,7 @@ C’est pas compliqué."</desc>
     <scene title="dancefloor_0" code="D" subCode="0" >
       <desc>"Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
 
-Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
+Sophie, Audrey-Anne, Raph, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
       <actions>
         <question code="D1"> Vous observez Fabien.</question>
         <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
@@ -1199,7 +1199,9 @@ Vous comprenez immédiatement qu’elle a raison. Mieux vaut s’arrêter là.</
     <scene title="dj_0" code="DJ" subCode="0" >
       <desc>Vous vous approchez de la table du DJ.
 
-Quentin est aux manettes. Il tient un casque audio contre son oreille pour faire comme les vrais DJ. Malheureusement, le casque n’est branché à rien, car cela couperait le son de la sono, mais ça l’aide à avoir plus confiance en lui, et c’est important.</desc>
+Quentin est aux manettes. Il tient un casque audio contre son oreille pour faire comme les vrais DJ. Malheureusement, le casque n’est branché à rien, car cela couperait le son de la sono, mais ça l’aide à avoir plus confiance en lui, et c’est important.
+
+À côté de lui, Baptiste observe l’installation électronique.</desc>
       <actions>
         <question code="DJ1"> Vous lui demandez de baisser un peu le son.</question>
         <question code="DJ2"> Vous lui dites que vous aimeriez bien entendre un peu de bonne musique pour changer.</question>
@@ -1239,7 +1241,7 @@ Quentin est aux manettes. Il tient un casque audio contre son oreille pour faire
 	    <scene title="dj_2c" code="DJ2c" subCode="2c" >
       <desc>"Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
 
-Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
+Sophie, Audrey-Anne, Raph, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
       <actions>
         <question code="D1"> Vous observez Fabien.</question>
         <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
@@ -1252,7 +1254,7 @@ Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se 
 	    <scene title="dj_2d" code="DJ2d" subCode="2d" >
       <desc>"Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
 
-Sophie, Audrey-Anne, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
+Sophie, Audrey-Anne, Raph, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
       <actions>
         <question code="D1"> Vous observez Fabien.</question>
         <question code="D2"> Vous demandez à Audrey-Anne si elle a vu les mariés.</question>
