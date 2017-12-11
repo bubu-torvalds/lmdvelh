@@ -30,7 +30,6 @@ public class ChaletController1 : MonoBehaviour {
         if (currentScene.getCode() == "C") {
             SceneManager.LoadScene("Chalet");
         } else if (currentScene.getCode() == "C1") {
-            audioSource.Play();
             c1();
         } else if (currentScene.getCode() == "C1a") {
             audioSource.Play();
