@@ -2,20 +2,37 @@
 <wedding>
   <scenes>
       <scene title="Start" code="ST" subCode="0" >
-      <desc>Bienvenue au Mariage dont VOUS êtes le héros.
+      <desc>Dans le cadre idyllique de la Ferme 5 étoiles, vous profitez de la nature en écoutant les bruits des animaux et les rires des enfants. Les arbres ont pris leurs couleurs d’automne, et vous n’attendez qu’une chose : fêter dignement le mariage d’Hélène et Maxime en compagnie de leurs proches. 
 
-Vous vous trouvez au cœur du Fjord du Saguenay, à Sacré-Cœur. 
-Dans le cadre idyllique de la Ferme 5 étoiles, vous êtes entouré de nature, d’animaux et des invités du mariage. Les arbres ont pris leurs couleurs d’automne, les enfants s’amusent sur le toboggan ou observent les loups à travers le grillage de leur enclos tandis que les adultes discutent gaiement au quatre coin de la Ferme.
- 
-Mais voilà, parmi tout ce joyeux petit monde, impossible de trouver Hélène et Maxime.
 
-Ils ont disparus. 
+Seulement voilà, parmi tout ce joyeux petit monde, impossible de trouver les jeunes mariés.
 
-Vous vous lancez donc à leur recherche, et pour ce faire vous allez devoir vous balader dans la Ferme et parler aux invités afin de mener votre enquête et les retrouver.
 
-Dans cette aventure textuelle vous allez vous déplacer d’écran en écran en faisant des choix. Pour valider vos choix vous devrez appuyer sur la touche numérique correspondante sur votre clavier (de 1 à 9).
+Ils ont disparu. 
 
-A n'importe quel moment du jeu, si vous vous sentez perdu, appuyer sur C pour afficher la carte.</desc>
+
+Pour sauver la fête, vous devez impérativement retrouver les mariés en explorant la ferme.
+
+
+Pour vous déplacer, rien de plus facile : vous pourrez passer d’un écran à l’autre en choisissant une option à l’aide des touches 1 à 9 de votre clavier. 
+
+
+À n'importe quel moment du jeu, si vous vous sentez perdu, appuyez sur C pour afficher la carte.
+
+
+Bienvenue au mariage dont VOUS êtes le héros.
+
+
+
+
+
+
+
+
+
+
+
+</desc>
       <actions>
         <question code="C"> Jouer</question>
       </actions>

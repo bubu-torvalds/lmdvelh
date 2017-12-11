@@ -24,7 +24,7 @@ public class EcranTitreController : MonoBehaviour {
 
             audioSource.Play();
 
-            SceneManager.LoadScene("Start");
+            SceneManager.LoadScene("PreStart");
 
         }
 
