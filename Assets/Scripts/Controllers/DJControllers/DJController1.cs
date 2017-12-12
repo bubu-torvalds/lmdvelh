@@ -11,6 +11,8 @@ public class DJController1 : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public Image fade;
+
 
     // Use this for initialization
     void Start() {
@@ -54,6 +56,8 @@ public class DJController1 : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
             audioSource.Play();
             currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ1");
+            fade.canvasRenderer.SetAlpha(1.0f);
+            fade.CrossFadeAlpha(0f, 2f, true);
         } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
             currentScene = wedding.getScenes().Find(x => x.getCode() == "DJ2");
         } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) {

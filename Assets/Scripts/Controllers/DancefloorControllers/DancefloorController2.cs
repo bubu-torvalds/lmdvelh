@@ -11,6 +11,7 @@ public class DancefloorController2 : MonoBehaviour {
     public GameObject map;
     private Scene currentScene;
     public AudioSource audioSource;
+    public Image fade;
 
     // Use this for initialization
     void Start() {
@@ -31,6 +32,7 @@ public class DancefloorController2 : MonoBehaviour {
         } else if (currentScene.getCode() == "D2") {
             audioSource.Play();
             SceneManager.LoadScene("Dancefloor_2");
+
         } else if (currentScene.getCode() == "D") {
             audioSource.Play();
             SceneManager.LoadScene("Dancefloor");
@@ -44,7 +46,8 @@ public class DancefloorController2 : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
             audioSource.Play();
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D2");
-
+            fade.canvasRenderer.SetAlpha(1.0f);
+            fade.CrossFadeAlpha(0f, 2f, true);
         } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
