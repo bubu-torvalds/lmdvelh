@@ -25,7 +25,7 @@ public class PostStartController : MonoBehaviour {
 
         if (this.i >= 4) {
             StopCoroutine(BlinkText());
-            InvokeRepeating("FadeToBlack", 2f, .5f);
+            InvokeRepeating("FadeToBlack", 2f, 0.2f);
 
             if (image.canvasRenderer.GetAlpha() >= 1.0f) {
                 SceneManager.LoadScene("PostStart2");

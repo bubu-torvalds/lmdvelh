@@ -12,17 +12,17 @@ public class PostStart2Controller : MonoBehaviour {
     // Use this for initialization
     void Start () {
         image.canvasRenderer.SetAlpha(1.0f);
-        InvokeRepeating("FadeToText", 2f, 0.001f);
+        InvokeRepeating("FadeToText", 2f, 0.0001f);
 
     }
 	
 	// Update is called once per frame
 	void Update () {
 
-        if (image.canvasRenderer.GetAlpha() <= 0.0f) {
+        if (image.canvasRenderer.GetAlpha() <= 0.3f) {
 
             CancelInvoke("FadeToText");
-            InvokeRepeating("FadeToBlack", 2f, .5f);       
+            InvokeRepeating("FadeToBlack", 1f, 0.2f);       
 
         }
 
