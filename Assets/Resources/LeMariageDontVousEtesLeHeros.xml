@@ -71,7 +71,7 @@ Bienvenue au mariage dont VOUS êtes le héros.
         <question code="C2"> Vous avancez dans le couloir.</question>
         <question code="D"> L’appel de la musique est trop fort. Vous sortez pour rejoindre la piste de danse.</question>
         <question code="T"> Finalement, vous décidez d’aller vous asseoir dehors avec les autres.</question>
-        <question code="S"> L’ odeur de viande grillée vous attire. Vous sortez pour aller au stand BBQ.</question>
+        <question code="S"> L’odeur de viande grillée vous attire. Vous sortez pour aller au stand BBQ.</question>
       </actions>
     </scene>
     <scene title="Chalet_1" code="C1" subCode="1" >
@@ -1153,7 +1153,7 @@ C’est pas compliqué."</desc>
       </actions>
     </scene>
     <scene title="dancefloor_0" code="D" subCode="0" >
-      <desc>"Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
+      <desc>Vous arrivez sur la piste de danse ! Le coeur battant de la soirée.
 
 Sophie, Audrey-Anne, Raph, Yolande, Leela, Lisa et Fabien, le frère d’Hélène, se déchaînent sur la piste.</desc>
       <actions>
