@@ -866,7 +866,7 @@ Les garçons retombent à 25 points.</desc>
 Nico tape du pied et s’en va dans la forêt en grommelant.</desc>
       <actions>
         <question code="N"> Vous suivez Nico dans la forêt.</question>
-        <question code="M2">"Je peux jouer ?"</question>
+        <!--<question code="M2">"Je peux jouer ?"</question>-->
         <question code="B"> Meh. Vous préférez aller au bar.</question>
         <question code="S"> Vous avez un petit creux. Ça tombe bien, les saucisses sont prêtes.</question>
         <question code="D"> "Je m’en fous, je vais danser."</question>

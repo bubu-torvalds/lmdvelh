@@ -31,9 +31,9 @@ public class MolkkyController1j : MonoBehaviour {
         } else if (currentScene.getCode() == "N") {
             audioSource.Play();
             SceneManager.LoadScene("Nous");
-        } else if (currentScene.getCode() == "M2") {
+        /*} else if (currentScene.getCode() == "M2") {
             audioSource.Play();
-            SceneManager.LoadScene("Molkky_2");
+            SceneManager.LoadScene("Molkky_2");*/
         } else if (currentScene.getCode() == "B") {
             audioSource.Play();
             SceneManager.LoadScene("Bar");
@@ -55,19 +55,19 @@ public class MolkkyController1j : MonoBehaviour {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "N");
 
+        /*} else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
+
+            currentScene = wedding.getScenes().Find(x => x.getCode() == "M2");*/
+
         } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2)) {
-
-            currentScene = wedding.getScenes().Find(x => x.getCode() == "M2");
-
-        } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "B");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "S");
 
-        } else if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKeyDown(KeyCode.Alpha5)) {
+        } else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4)) {
 
             currentScene = wedding.getScenes().Find(x => x.getCode() == "D");
 

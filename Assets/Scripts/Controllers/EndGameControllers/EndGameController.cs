@@ -52,7 +52,7 @@ public class EndGameController : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1))
         {
-            SceneManager.LoadScene("FirstPage");
+            SceneManager.LoadScene("PreStart");
 
         } else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
         {
