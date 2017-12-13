@@ -22,7 +22,7 @@ public class EndGameController : MonoBehaviour {
 
         Debug.Log(image.canvasRenderer.GetAlpha());
 
-        InvokeRepeating("FadeToImage", 5f, 0.001f);
+        InvokeRepeating("FadeToImage", 2f, 0.001f);
     }
 	
 	// Update is called once per frame
@@ -34,7 +34,7 @@ public class EndGameController : MonoBehaviour {
 
             CancelInvoke("FadeToImage");
 
-            InvokeRepeating("FadeToBlack", 2f, 0.5f);
+            InvokeRepeating("FadeToBlack", 0f, 0.001f);
 
             Debug.Log(image.canvasRenderer.GetAlpha());
         }
@@ -45,7 +45,7 @@ public class EndGameController : MonoBehaviour {
 
             GetComponent<Image>().sprite = texteFin;
 
-            InvokeRepeating("FadeToText", 2f, 0.5f);
+            InvokeRepeating("FadeToText", 0f, 0.001f);
         }
 
 
