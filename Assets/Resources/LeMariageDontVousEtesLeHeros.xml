@@ -405,7 +405,7 @@ D'ailleurs, Patou le toutou est à nouveau couvert de longs poilous tout doux. I
 
 Vous apercevez Amandine, une amie d’Hélène, et Arnaud, un ami de Maxime. Ils ont l’air pris dans une conversation passionnante et se dévorent timidement des yeux.</desc>
       <actions>
-        <question code="T1"> Vous les interrompez : 'Est-ce que vous avez vu Max et Hélène ?'</question>
+        <question code="T1"> Vous les interrompez : "Est-ce que vous avez vu Max et Hélène ?"</question>
         <question code="T2"> Vous les observez un instant, heureux d’assister à ce qui pourrait être le début d’une grande histoire d’amour.</question>
         <question code="J"> Vous ne les trouvez pas très intéressants et vous décidez d’aller aux jeux pour enfants.</question>
         <question code="D"> Vous ne préférez pas les déranger et vous allez danser.</question>
@@ -426,7 +426,7 @@ Vous apercevez Amandine, une amie d’Hélène, et Arnaud, un ami de Maxime. Ils
 
 Qui aurait pu prévoir que ces deux-là s’entendraient ?</desc>
       <actions>
-        <question code="T1"> Vous les interrompez : 'Est-ce que vous avez vu Max et Hélène ?'</question>
+        <question code="T1"> Vous les interrompez : "Est-ce que vous avez vu Max et Hélène ?"</question>
         <question code="J"> Vous ne les trouvez pas très intéressants et vous décidez d’aller aux jeux pour enfants.</question>
         <question code="D"> Vous ne préférez pas les déranger et vous allez danser.</question>
         <question code="C"> Vous ressentez d’un coup le froid canadien et vous rentrez vous réchauffer.</question>
