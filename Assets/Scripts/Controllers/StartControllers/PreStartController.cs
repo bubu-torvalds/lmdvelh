@@ -12,19 +12,19 @@ public class PreStartController : MonoBehaviour {
 	void Start () {
 
         image.canvasRenderer.SetAlpha(1.0f);
-        InvokeRepeating("FadeToText", 1f, 0.0001f);
+        InvokeRepeating("FadeToText", 0f, 0.0001f);
 		
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        if (image.canvasRenderer.GetAlpha() <= 0.3f)
+        if (image.canvasRenderer.GetAlpha() <= 0.4f)
         {
 
             CancelInvoke("FadeToText");
 
-            InvokeRepeating("FadeToBlack", 1f, 0.2f);
+            InvokeRepeating("FadeToBlack", 0f, 0.001f);
 
             Debug.Log(image.canvasRenderer.GetAlpha());
         }
