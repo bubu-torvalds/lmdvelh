@@ -19,12 +19,12 @@ public class PreStartController : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-        if (image.canvasRenderer.GetAlpha() <= 0.4f)
+        if (image.canvasRenderer.GetAlpha() <= 0.0f)
         {
 
             CancelInvoke("FadeToText");
 
-            InvokeRepeating("FadeToBlack", 0f, 0.001f);
+            InvokeRepeating("FadeToBlack", 2f, 0.1f);
 
             Debug.Log(image.canvasRenderer.GetAlpha());
         }
@@ -43,13 +43,13 @@ public class PreStartController : MonoBehaviour {
         Debug.Log(image.canvasRenderer.GetAlpha());
 
         // La ligne suivante est SALE mais CrossFadeAlpha ne fonctionne pas pour d'obscure raison dans ce sens donc dirty code is dirty.
-        image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() - 0.0003f);
+        image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() - 0.003f);
 
     }
 
     void FadeToBlack() {
         Debug.Log(image.canvasRenderer.GetAlpha());
 
-        image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() + 0.0003f);
+        image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() + 0.0009f);
     }
 }
