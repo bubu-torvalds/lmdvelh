@@ -36,7 +36,7 @@ public class StartController : MonoBehaviour {
 
     void st() {
 
-        desc.text = PrintText.printText(currentScene);
+        //desc.text = PrintText.printText(currentScene);
 
         if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1)) {
 
