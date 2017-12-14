@@ -20,8 +20,6 @@ public class EndGameController : MonoBehaviour {
 
         image.canvasRenderer.SetAlpha(0.0f);
 
-        Debug.Log(image.canvasRenderer.GetAlpha());
-
         InvokeRepeating("FadeToImage", 2f, 0.001f);
     }
 	
@@ -30,13 +28,9 @@ public class EndGameController : MonoBehaviour {
 
         if (image.canvasRenderer.GetAlpha() >= 1.0f) {
 
-            Debug.Log("image.canvasRenderer.GetAlpha() >= 1f");
-
             CancelInvoke("FadeToImage");
 
             InvokeRepeating("FadeToBlack", 0f, 0.001f);
-
-            Debug.Log(image.canvasRenderer.GetAlpha());
         }
 
         if (image.canvasRenderer.GetAlpha() < 0f) {
@@ -63,8 +57,6 @@ public class EndGameController : MonoBehaviour {
 
     void FadeToImage() {
 
-        Debug.Log(image.canvasRenderer.GetAlpha());
-
         // La ligne suivante est SALE mais CrossFadeAlpha ne fonctionne pas pour d'obscure raison dans ce sens donc dirty code is dirty.
         image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() + 0.0003f);
 
@@ -72,15 +64,11 @@ public class EndGameController : MonoBehaviour {
 
     void FadeToBlack() {
 
-        Debug.Log(image.canvasRenderer.GetAlpha());
-
         image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() - 0.0003f);
 
     }
 
     void FadeToText() {
-
-        Debug.Log("fadetotext");
 
         // La ligne suivante est SALE mais CrossFadeAlpha ne fonctionne pas pour d'obscure raison dans ce sens donc dirty code is dirty.
         image.canvasRenderer.SetAlpha(image.canvasRenderer.GetAlpha() + 0.0003f);
